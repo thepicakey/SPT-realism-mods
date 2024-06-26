@@ -1,0 +1,52 @@
+{
+    "equipment": "5fe49444ae6628187a2e77b8",
+    "fastPanel": {},
+    "items": [
+        {
+            "_id": "5fe49444ae6628187a2e77b8",
+            "_tpl": "55d7217a4bdc2d86028b456d"
+        },
+        {
+            "_id": "2fcf97cb76afa75545d02d8d",
+            "_tpl": "544a11ac4bdc2d470e8b456a",
+            "parentId": "5fe49444ae6628187a2e77b8",
+            "slotId": "SecuredContainer"
+        },
+        {
+            "_id": "325a0522b36c3efd6100df25",
+            "_tpl": "627a4e6b255f7527fb05a0f6",
+            "parentId": "5fe49444ae6628187a2e77b8",
+            "slotId": "Pockets"
+        },
+        {
+            "_id": "5fe49444ae6628187a2e78b8",
+            "_tpl": "5811ce772459770e9e5f9532"
+        },
+        {
+            "_id": "5fe49444ae6628187a2e78ba",
+            "_tpl": "5963866b86f7747bfa1c4462"
+        },
+        {
+            "_id": "5fe49444ae6628187a2e78b9",
+            "_tpl": "5963866286f7747bf429b572"
+        },
+        {
+            "_id": "60dca3da42ad9b706b369aca",
+            "_tpl": "602543c13fee350cd564d032"
+        },
+        {
+            "_id": "c549f3ce8fe63cf9f9940de3",
+            "_tpl": "5963866b86f7747bfa1c4462"
+        },
+		{
+			"_id": "0940adb6ebda552aae5f639b",
+			"_tpl": "54491bb74bdc2d09088b4567",
+			"parentId": "5fe49444ae6628187a2e77b8",
+			"slotId": "Scabbard"
+		}
+    ],
+    "questRaidItems": "5fe49444ae6628187a2e78b9",
+    "questStashItems": "5fe49444ae6628187a2e78ba",
+    "sortingTable": "60dca3da42ad9b706b369aca",
+    "stash": "5fe49444ae6628187a2e78b8"
+}

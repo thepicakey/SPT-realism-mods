@@ -1,0 +1,244 @@
+{
+    "POCKETS_TUE": {
+        "clone": "627a4e6b255f7527fb05a0f6",
+        "withspec": "627a4e6b255f7527fb05a0f6",
+        "nospec": "557ffd194bdc2d28148b457f",
+        "items": {
+            "_props": {
+                "Grids": [
+                    {
+                        "_name": "pocket1",
+                        "_props": {
+                            "cellsH": 1,
+                            "cellsV": 1
+                        }
+                    },
+                    {
+                        "_name": "pocket2",
+                        "_props": {
+                            "cellsH": 1,
+                            "cellsV": 2
+                        }
+                    },
+                    {
+                        "_name": "pocket3",
+                        "_props": {
+                            "cellsH": 1,
+                            "cellsV": 2
+                        }
+                    },
+                    {
+                        "_name": "pocket4",
+                        "_props": {
+                            "cellsH": 1,
+                            "cellsV": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "POCKETS_TUE_NO_SPEC": {
+        "clone": "557ffd194bdc2d28148b457f",
+        "items": {
+            "_props": {
+                "Grids": [
+                    {
+                        "_name": "pocket1",
+                        "_props": {
+                            "cellsH": 2,
+                            "cellsV": 2
+                        }
+                    },
+                    {
+                        "_name": "pocket2",
+                        "_props": {
+                            "cellsH": 1,
+                            "cellsV": 2
+                        }
+                    },
+                    {
+                        "_name": "pocket3",
+                        "_props": {
+                            "cellsH": 1,
+                            "cellsV": 2
+                        }
+                    },
+                    {
+                        "_name": "pocket4",
+                        "_props": {
+                            "cellsH": 1,
+                            "cellsV": 2
+                        }
+                    }
+                ],
+                "Slots": [
+                    {
+                        "_name": "SpecialSlot1",
+                        "_id": "627a4e6b255f7527fb05a0fc",
+                        "_parent": "627a4e6b255f7527fb05a0f6",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                        "5f4fbaaca5573a5ac31db429",
+                                        "61605ddea09d851a0a0c1bbc",
+                                        "62e9103049c018f425059f38",
+                                        "5991b51486f77447b112d44f",
+                                        "5ac78a9b86f7741cca0bbd8d",
+                                        "5b4391a586f7745321235ab2",
+                                        "544fb5454bdc2df8738b456a",
+                                        "64b69b0c8f3be32ed22682f8",
+                                        "65ddcc7aef36f6413d0829b9"
+                                    ]
+                                }
+                            ]
+                        },
+                        "_required": false,
+                        "_mergeSlotWithChildren": false,
+                        "_proto": "55d721144bdc2d89028b456f"
+                    },
+                    {
+                        "_name": "SpecialSlot2",
+                        "_id": "627a4e6b255f7527fb05a0fd",
+                        "_parent": "627a4e6b255f7527fb05a0f6",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                        "5f4fbaaca5573a5ac31db429",
+                                        "61605ddea09d851a0a0c1bbc",
+                                        "62e9103049c018f425059f38",
+                                        "5991b51486f77447b112d44f",
+                                        "5ac78a9b86f7741cca0bbd8d",
+                                        "5b4391a586f7745321235ab2",
+                                        "544fb5454bdc2df8738b456a",
+                                        "64b69b0c8f3be32ed22682f8",
+                                        "65ddcc7aef36f6413d0829b9"
+                                    ]
+                                }
+                            ]
+                        },
+                        "_required": false,
+                        "_mergeSlotWithChildren": false,
+                        "_proto": "55d721144bdc2d89028b456f"
+                    }
+                ]
+            }
+        }
+    },
+	"POCKETS_HATCHET": {
+        "clone": "557ffd194bdc2d28148b457f",
+        "items": {
+            "_props": {
+                "Grids": [
+                    {
+                        "_name": "pocket1",
+                        "_props": {
+                            "cellsH": 1,
+                            "cellsV": 1
+                        }
+                    },
+                    {
+                        "_name": "pocket2",
+                        "_props": {
+                            "cellsH": 1,
+                            "cellsV": 1
+                        }
+                    }
+                ],
+				"Slots": [
+                    {
+                        "_name": "SpecialSlot1",
+                        "_id": "627a4e6b255f7527fb05a0fc",
+                        "_parent": "627a4e6b255f7527fb05a0f6",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                        "5f4fbaaca5573a5ac31db429",
+                                        "61605ddea09d851a0a0c1bbc",
+                                        "62e9103049c018f425059f38",
+                                        "5991b51486f77447b112d44f",
+                                        "5ac78a9b86f7741cca0bbd8d",
+                                        "5b4391a586f7745321235ab2",
+                                        "544fb5454bdc2df8738b456a",
+                                        "64b69b0c8f3be32ed22682f8",
+                                        "65ddcc7aef36f6413d0829b9"
+                                    ]
+                                }
+                            ]
+                        },
+                        "_required": false,
+                        "_mergeSlotWithChildren": false,
+                        "_proto": "55d721144bdc2d89028b456f"
+                    }
+                ]
+            }
+        }
+    },
+	"POCKETS_BOSS_EDITION": {
+        "clone": "557ffd194bdc2d28148b457f",
+        "items": {
+            "_props": {
+                "Grids": [
+                    {
+                        "_name": "pocket1",
+                        "_props": {
+                            "cellsH": 2,
+                            "cellsV": 2
+                        }
+                    },
+                    {
+                        "_name": "pocket2",
+                        "_props": {
+                            "cellsH": 1,
+                            "cellsV": 2
+                        }
+                    },
+					{
+                        "_name": "pocket3",
+                        "_props": {
+                            "cellsH": 1,
+                            "cellsV": 2
+                        }
+                    },
+                    {
+                        "_name": "pocket4",
+                        "_props": {
+                            "cellsH": 1,
+                            "cellsV": 2
+                        }
+                    }
+                ],
+				"Slots": [
+                    {
+                        "_name": "SpecialSlot1",
+                        "_id": "627a4e6b255f7527fb05a0fc",
+                        "_parent": "627a4e6b255f7527fb05a0f6",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                        "5f4fbaaca5573a5ac31db429",
+                                        "61605ddea09d851a0a0c1bbc",
+                                        "62e9103049c018f425059f38",
+                                        "5991b51486f77447b112d44f",
+                                        "5ac78a9b86f7741cca0bbd8d",
+                                        "5b4391a586f7745321235ab2",
+                                        "544fb5454bdc2df8738b456a",
+                                        "64b69b0c8f3be32ed22682f8",
+                                        "65ddcc7aef36f6413d0829b9"
+                                    ]
+                                }
+                            ]
+                        },
+                        "_required": false,
+                        "_mergeSlotWithChildren": false,
+                        "_proto": "55d721144bdc2d89028b456f"
+                    }
+                ]
+            }
+        }
+    }
+}

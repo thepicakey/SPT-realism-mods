@@ -1,0 +1,12 @@
+{
+	"RemoveSPTEditions": true,
+	"EditionsToRemove": ["Edge Of Darkness", "SPT Developer", "SPT Easy start", "SPT Zero to hero"],
+	"EnableStandardEdition": false,
+	"EnablePTEEdition": false,
+	"EnableEODEdition": true,
+	"EnableUnheardEdition": false,
+	"EnableAxemanEdition": false,
+	"EnableBossEdition": false,
+	"UseUnheardItemsPreview": true,
+	"Language": "en"
+}
