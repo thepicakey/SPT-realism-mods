@@ -125,7 +125,7 @@ export class AttachmentBase {
             "5e00903ae9dc277128008b87",
             "5de7bd7bfd6b4e6e2276dc25"
         ];
-
+/*
         const buffertubes = [
             "5649be884bdc2d79388b4577",
             "5c0faeddd174af02a962601f",
@@ -194,7 +194,7 @@ export class AttachmentBase {
         for (let stock in stocksArr) {
             this.itemDB()[stocksArr[stock]]._props.ConflictingItems = firstSlotstocksArr;
         }
-
+*/
         for (let i in this.itemDB()) {
             let serverItem = this.itemDB()[i];
 

@@ -539,7 +539,7 @@ class BotInvGen extends BotInventoryGenerator_1.BotInventoryGenerator {
             }
             // Item has slots
             if (itemTemplate[1]._props.Slots?.length > 0) {
-                const items = botModGen.myGenerateModsForEquipment([item], id, itemTemplate[1], settings, false, botRole, pmcTier);
+                const items = botModGen.myGenerateModsForEquipment([item], id, itemTemplate[1], settings, false, botRole, pmcTier, myBotGenHelper);
                 settings.inventory.items.push(...items);
             }
             else {
@@ -776,7 +776,7 @@ class BotWepGen extends BotWeaponGenerator_1.BotWeaponGenerator {
             }
         }
         catch {
-            this.logger.warning(`Realism Mod: Failed To Find Custom Preset For Bot ${botRole} At Tier ${tier}. Do not panic, read the warning, it is not a problem to report.`);
+            this.logger.warning(`Realism Mod: Failed To Find Custom Preset For Bot ${botRole} At Tier ${tier}. Do not panic, read the warning, do not report this.`);
             this.logger.warning(this.localisationService.getText("bot-weapon_generated_incorrect_using_default", weaponTpl));
             let preset;
             for (const presetObj of Object.values(tables.globals.ItemPresets)) {
@@ -860,6 +860,9 @@ class BotGenHelper extends BotGeneratorHelper_1.BotGeneratorHelper {
                 HpPercent: this.getRandomizedResourceValue(itemTemplate._props.MaxResource, this.botConfig.lootItemResourceRandomization[botRole]?.food)
             };
         }
+        if (itemTemplate._props.MaxResource && itemTemplate._id === "590c595c86f7747884343ad7") {
+            itemProperties.Resource = { Value: Math.floor(Math.random() * 61) + 35, UnitsConsumed: 0 };
+        }
         if (itemTemplate._parent === BaseClasses_1.BaseClasses.FLASHLIGHT || itemTemplate._parent === BaseClasses_1.BaseClasses.TACTICAL_COMBO) {
             if ((parentWeaponClass === BaseClasses_1.BaseClasses.PISTOL && equipmentSlot.toLowerCase() === "holster") || equipmentSlot.toLowerCase() === "secondprimaryweapon") {
                 // stops pistols in holster having lights on
@@ -894,17 +897,34 @@ exports.BotGenHelper = BotGenHelper;
 class BotEquipGenHelper extends BotEquipmentModGenerator_1.BotEquipmentModGenerator {
     myFilterPlateModsForSlotByLevel(settings, modSlot, existingPlateTplPool, armorItem, botRole, pmcTier) {
         const result = { result: IFilterPlateModsForSlotByLevelResult_1.Result.UNKNOWN_FAILURE, plateModTpls: null };
-        // Not pmc or not a plate slot, return original mod pool array
+        // not a plate slot, return original mod pool array
         if (!this.itemHelper.isRemovablePlateSlot(modSlot)) {
             result.result = IFilterPlateModsForSlotByLevelResult_1.Result.NOT_PLATE_HOLDING_SLOT;
             result.plateModTpls = existingPlateTplPool;
             return result;
         }
         const tierChecker = new utils_1.BotTierTracker();
-        const tier = botRole === "sptbear" || botRole === "sptusec" ? pmcTier : botRole === "assault" ? tierChecker.getTier(botRole) : 4;
-        const armorPlateWeight = modConfig.realistic_ballistics == true ? armorPlateWeights.realisticWeights : armorPlateWeights.standardWeights;
+        let armorPlates = modConfig.realistic_ballistics == true ? armorPlateWeights.pmcWeights : armorPlateWeights.standardWeights;
+        let tier = 1;
+        if (botRole === "sptbear" || botRole === "sptusec") {
+            tier = pmcTier;
+        }
+        else {
+            tier = tierChecker.getTier(botRole);
+            if (modConfig.realistic_ballistics) {
+                if (botRole.toLowerCase().includes("follower") || botRole == "exusec" || botRole == "pmcbot") {
+                    armorPlates = armorPlateWeights.followerWeights;
+                }
+                if (botRole.toLowerCase().includes("boss")) {
+                    armorPlates = armorPlateWeights.bossWeights;
+                }
+                if (botRole == "assault" || botRole == "marksman") {
+                    armorPlates = armorPlateWeights.scavWeights;
+                }
+            }
+        }
         // Get the front/back/side weights based on bots level
-        const plateSlotWeights = armorPlateWeight.find((x) => tier >= x.levelRange.min && tier <= x.levelRange.max);
+        const plateSlotWeights = armorPlates.find((x) => tier >= x.levelRange.min && tier <= x.levelRange.max);
         if (!plateSlotWeights) {
             // No weights, return original array of plate tpls
             result.result = IFilterPlateModsForSlotByLevelResult_1.Result.LACKS_PLATE_WEIGHTS;
@@ -954,7 +974,7 @@ class BotEquipGenHelper extends BotEquipmentModGenerator_1.BotEquipmentModGenera
         result.plateModTpls = filteredPlates.map((item) => item._id);
         return result;
     }
-    myGenerateModsForEquipment(equipment, parentId, parentTemplate, settings, shouldForceSpawn = false, botRole, pmcTier) {
+    myGenerateModsForEquipment(equipment, parentId, parentTemplate, settings, shouldForceSpawn = false, botRole, pmcTier, botGenHelper) {
         let forceSpawn = shouldForceSpawn;
         const compatibleModsPool = settings.modPool[parentTemplate._id];
         if (!compatibleModsPool) {
@@ -973,6 +993,10 @@ class BotEquipGenHelper extends BotEquipmentModGenerator_1.BotEquipmentModGenera
                 continue;
             }
             const modSpawnResult = this.shouldModBeSpawned(itemSlotTemplate, modSlotName.toLowerCase(), settings.spawnChances.equipmentMods, settings.botEquipmentConfig);
+            //if the gear takes a gas mask filter, it's a gas mask, force spawn
+            if (compatibleModsPool[modSlotName].includes("590c595c86f7747884343ad7")) {
+                forceSpawn = true;
+            }
             if (modSpawnResult === ModSpawn_1.ModSpawn.SKIP && !forceSpawn) {
                 continue;
             }
@@ -1021,11 +1045,18 @@ class BotEquipGenHelper extends BotEquipmentModGenerator_1.BotEquipmentModGenera
             }
             // Generate new id to ensure all items are unique on bot
             const modId = this.hashUtil.generate();
-            equipment.push(this.createModItem(modId, modTpl, parentId, modSlotName, modTemplate[1], settings.botRole));
+            let newItem = {
+                _id: modId,
+                _tpl: modTpl,
+                parentId: parentId,
+                slotId: modSlotName,
+                ...botGenHelper.myGenerateExtraPropertiesForItem(modTemplate[1], settings.botRole), //need to call my version of genExtraProps
+            };
+            equipment.push(newItem);
             // Does the item being added have possible child mods?
             if (Object.keys(settings.modPool).includes(modTpl)) {
                 // Call self recursively with item being checkced item we just added to bot
-                this.myGenerateModsForEquipment(equipment, modId, modTemplate[1], settings, forceSpawn, botRole, pmcTier);
+                this.myGenerateModsForEquipment(equipment, modId, modTemplate[1], settings, forceSpawn, botRole, pmcTier, botGenHelper);
             }
         }
         return equipment;

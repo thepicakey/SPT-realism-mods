@@ -1,0 +1,36 @@
+{
+    "name": "xMASS_system",
+    "version": "3.2.0",
+    "main": "src/mod.js",
+    "license": "PETTAN - Creative Commons BY-NC-ND 4.0 | Mighty_Condor's Backend:University of Illinois/NCSA Open Source License",
+    "author": "PETTAN",
+    "akiVersion": "3.8.x",
+    "isBundleMod": true,
+    "loadBefore": [
+        "ATTACHMENTS AIO",
+        "yATT_Foregrips_BCM_reversed_PETTAN",
+        "yATT_Sights_Laser_Titanfall_2_AT233",
+		"SPT-Realism"
+    ],
+    "loadAfter": [
+        "aaMFACSHOP",
+        "Guns_Custom_Caliber_Weapons_ExampleForCATmod",
+        "Guns_AUTO9_PETTAN",
+        "Guns_DDM4_PETTAN",
+        "Guns_Detonics_CM_PETTAN",
+        "Guns_Holmes_2011_PETTAN",
+        "Guns_Massivesoft",
+        "Guns_MFAC",
+        "Guns_Titanfall_2_AT233",
+        "Guns_YetAnotherPort_Miralyn",
+        "Guns_KMC",
+        "ATLAS-GEAR",
+        "(MFAC) SIG_MCX_VIRTUS"
+    ],
+    "incompatibilities": [],
+    "contributors": [
+        "Backend - Mighty_Condor"
+    ],
+    "scripts": {},
+    "devDependencies": {}
+}

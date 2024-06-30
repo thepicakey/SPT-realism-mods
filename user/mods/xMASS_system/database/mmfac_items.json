@@ -1,0 +1,2516 @@
+{
+    "mount_all_shifty_scope_base": {
+        "sptID": "770e00e2ed0ef4b33bf88dfc",
+        "clone": "59f9d81586f7744c7506ee62",
+        "enableCloneCompats": true,
+        "enableCloneConflicts": false,
+        "enable": true,
+        "item": {
+            "_id": "770e00e2ed0ef4b33bf88dfc",
+            "_name": "mount_all_shifty_scope_base",
+            "_parent": "55818b224bdc2dde698b456f",
+            "_type": "Item",
+            "_props": {
+                "Name": "mount_all_shifty_scope_base",
+                "ShortName": "mount_all_shifty_scope_base",
+                "Description": "mount_all_shifty_scope_base",
+                "Weight": 0,
+                "BackgroundColor": "blue",
+                "Width": 1,
+                "Height": 1,
+                "StackMaxSize": 1,
+                "ItemSound": "mod",
+                "Prefab": {
+                    "path": "mount_all_shifty_base_pettan.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": true,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 5,
+                "ExamineExperience": 3,
+                "HideEntrails": false,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": true,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": false,
+                "ConflictingItems": [],
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "RagFairCommissionModifier": 1,
+                "IsAlwaysAvailableForInsurance": false,
+                "DiscardLimit": -1,
+                "DropSoundType": "None",
+                "InsuranceDisabled": false,
+                "QuestStashMaxCount": 0,
+                "IsSpecialSlotOnly": false,
+                "IsUnremovable": false,
+                "Grids": [],
+                "Slots": [
+                    {
+                        "_id": "MOUNT_ALL_SHIFTY1",
+                        "_mergeSlotWithChildren": false,
+                        "_name": "mod_scope",
+                        "_parent": "770e00e2ed0ef4b33bf88dfc",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                        "770e0132f6cd3bd0b7c88dfc",
+                                        "770e013fcf46dd634cc88dfc",
+                                        "770e014b4fefd5d7ea688dfc",
+                                        "770e01ad1923dcddf1788dfc",
+                                        "770e0277acf7dd12d5888dfc",
+                                        "770e02c70087e4e6b4e88dfc",
+                                        "770e02dca66aceeccf388dfc",
+                                        "770e03baabf74e6f6b688dfc",
+                                        "770e03c1070be6d39fc88dfc",
+                                        "770e03f314abedf574b88dfc",
+                                        "770e04186bb8ae2028488dfc",
+                                        "770e04ab5b2bdeae00a88dfc",
+                                        "770e04d55fd86d7b65888dfc",
+                                        "770e04f7b662da2e6f088dfc",
+                                        "770e04f8deb0dd176c688dfc"
+                                    ],
+                                    "Shift": 0
+                                }
+                            ]
+                        },
+                        "_proto": "55d30c4c4bdc2db4468b457e",
+                        "_required": true
+                    }
+                ],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "Durability": 100,
+                "Accuracy": 0,
+                "Recoil": 0,
+                "Loudness": 0,
+                "EffectiveDistance": 0,
+                "Ergonomics": 0,
+                "Velocity": 0,
+                "RaidModdable": true,
+                "ToolModdable": true,
+                "BlocksFolding": false,
+                "BlocksCollapsible": false,
+                "IsAnimated": false,
+                "HasShoulderContact": false,
+                "SightingRange": 0,
+                "DoubleActionAccuracyPenaltyMult": 1,
+                "UniqueAnimationModID": 0
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Sight Adjustment System Base Mount",
+                "ShortName": "SAS Base",
+                "Description": "MFAC Sight Adjustment System"
+            },
+            "ch": {
+                "Name": "MFAC 瞄具位置移动系统底座",
+                "ShortName": "瞄具底座",
+                "Description": "MFAC 瞄具位置移动系统底座。"
+            }
+        },
+        "addToExistingItemFilters": {
+            "mod_scope": [
+                "55801eed4bdc2d89578b4588",
+                "55d355e64bdc2d962f8b4569",
+                "55d48a634bdc2d8b2f8b456a",
+                "5648ae314bdc2d3d1c8b457f",
+                "5648b4534bdc2d3d1c8b4580",
+                "5649af884bdc2d1b2b8b4589",
+                "57acb6222459771ec34b5cb0",
+                "57ffaea724597779f52b3a4d",
+                "5827272a24597748c74bdeea",
+                "58272b392459774b4c7b3ccd",
+                "588892092459774ac91d4b11",
+                "5894a5b586f77426d2590767",
+                "591ee00d86f774592f7b841e",
+                "5926dad986f7741f82604363",
+                "59985a6c86f77414ec448d17",
+                "59bfe68886f7746004266202",
+                "59ccfdba86f7747f2109a587",
+                "59fb375986f7741b681b81a6",
+                "5a367e5dc4a282000e49738f",
+                "5a7893c1c585673f2b5c374d",
+                "5a78948ec5856700177b1124",
+                "5a957c3fa2750c00137fa5f7",
+                "5a966ec8a2750c00171b3f36",
+                "5a9d56c8a2750c0032157146",
+                "5ab24ef9e5b5b00fe93c9209",
+                "5ab372a310e891001717f0d8",
+                "5addbfbb5acfc400194dbcf7",
+                "5addbfd15acfc40015621bde",
+                "5addbfe15acfc4001a5fc58b",
+                "5addbfef5acfc400185c2857",
+                "5addbffe5acfc4001714dfac",
+                "5addc7005acfc4001669f275",
+                "5afd7ded5acfc40017541f5e",
+                "5b099bb25acfc400186331e8",
+                "5b237e425acfc4771e1be0b6",
+                "5ba26383d4351e00334c93d9",
+                "5bb20d53d4351e4502010a69",
+                "5bbdb811d4351e45020113c7",
+                "5bc5a372d4351e44f824d17f",
+                "5bd70322209c4d00d7167b8f",
+                "5beec3e30db8340019619424",
+                "5beec91a0db834001961942d",
+                "5bfebc530db834001d23eb65",
+                "5c064c400db834001d23f468",
+                "5c07a8770db8340023300450",
+                "5c0e2f26d174af02a9625114",
+                "5c488a752e221602b412af63",
+                "5c61627a2e22160012542c55",
+                "5c61a40d2e2216001403158d",
+                "5c90c3622e221601da359851",
+                "5cadfbf7ae92152ac412eeef",
+                "5caf1691ae92152ac412efb9",
+                "5cc700ede4a949033c734315",
+                "5cc7015ae4a949001152b4c6",
+                "5cde7b43d7f00c000d36b93e",
+                "5cf4e3f3d7f00c06595bc7f0",
+                "5cf656f2d7f00c06585fb6eb",
+                "5d0236dad7ad1a0940739d29",
+                "5d024f5cd7ad1a04a067e91a",
+                "5d2c76ed48f03532f2136169",
+                "5d2c770c48f0354b4a07c100",
+                "5d2c772c48f0355d95672c25",
+                "5d4405aaa4b9361e6a4e6bd3",
+                "5d4aab30a4b9365435358c55",
+                "5dcbd56fdbd3d91b3e5468d5",
+                "5de6558e9f98ac2bc65950fc",
+                "5de8e67c4a9f347bc92edbd7",
+                "5df35e970b92095fd441e4d2",
+                "5df8e4080b92095fd441e594",
+                "5dfcd0e547101c39625f66f9",
+                "5dff8db859400025ea5150d4",
+                "5e0090f7e9dc277128008b93",
+                "5e569a0156edd02abe09f27d",
+                "5e569a2e56edd02abe09f280",
+                "5eeb2ff5ea4f8b73c827350b",
+                "5efaf417aeb21837e749c7f2",
+                "5f2aa49f9b44de6b1b4e68d4",
+                "5f6331e097199b7db2128dc2",
+                "5f63418ef5750b524b45f116",
+                "5fb64bc92b1b027b1f50bcf2",
+                "5fbcc3e4d6fa9c00c571bb58",
+                "5fc278107283c4046c581489",
+                "5fc3e272f8b6a877a729eac5",
+                "5fc3f2d5900b1d5091531e57",
+                "602e63fb6335467b0c5ac94d",
+                "606587a88900dc2d9a55b659",
+                "60785ce5132d4d12c81fd918",
+                "609a4b4fe2ff132951242d04",
+                "6165adcdd3a39d50044c120f",
+                "6165aeedfaa1272e431521e3",
+                "61713a8fd92c473c770214a4",
+                "618405198004cc50514c3594",
+                "618426d96c780c1e710c9b9f",
+                "61f804acfcba9556ea304cb8",
+                "622b3c081b89c677a33bcda6",
+                "622b3d5cf9cfc87d675d2de9",
+                "622efdf8ec80d870d349b4e5",
+                "625ed7c64d9b6612df732146",
+                "62811fbf09427b40ab14e767",
+                "628b9be6cff66b70c002b14c",
+                "6389f1dfc879ce63f72fc43e",
+                "655cb6b5d680a544f30607fa"
+            ],
+            "mod_tactical_000": [
+                "5f6331e097199b7db2128dc2",
+                "628a83c29179c324ed269508"
+            ],
+            "mod_tactical_002": [
+                "5a957c3fa2750c00137fa5f7"
+            ],
+            "mod_scope_000": [
+                "5addc00b5acfc4001669f144"
+            ],
+            "mod_scope_001": [
+                "5addc00b5acfc4001669f144"
+            ]
+        }
+    },
+    "mount_all_shifty_scope_nega001": {
+        "enable": true,
+        "sptID": "770e0132f6cd3bd0b7c88dfc",
+        "item": {
+            "_id": "770e0132f6cd3bd0b7c88dfc",
+            "_name": "mount_all_shifty_scope_nega001",
+            "_parent": "55818b224bdc2dde698b456f",
+            "_type": "Item",
+            "_props": {
+                "Name": "mount_all_shifty_scope_nega001",
+                "ShortName": "mount_all_shifty_scope_nega001",
+                "Description": "mount_all_shifty_scope_nega001",
+                "Weight": 0,
+                "BackgroundColor": "red",
+                "Width": 1,
+                "Height": 1,
+                "StackMaxSize": 1,
+                "ItemSound": "mod",
+                "Prefab": {
+                    "path": "mount_all_shifty_nega001.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": true,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 5,
+                "ExamineExperience": 5,
+                "HideEntrails": false,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": true,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": false,
+                "ConflictingItems": [],
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "RagFairCommissionModifier": 1,
+                "IsAlwaysAvailableForInsurance": false,
+                "DiscardLimit": -1,
+                "DropSoundType": "None",
+                "InsuranceDisabled": false,
+                "QuestStashMaxCount": 0,
+                "IsSpecialSlotOnly": false,
+                "IsUnremovable": false,
+                "Grids": [],
+                "Slots": [
+                    {
+                        "_id": "mount_all_shifty_scope_nega001sco",
+                        "_mergeSlotWithChildren": false,
+                        "_name": "mod_scope",
+                        "_parent": "770e0132f6cd3bd0b7c88dfc",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                        "57ac965c24597706be5f975c",
+                                        "57aca93d2459771f2c7e26db",
+                                        "544a3a774bdc2d3a388b4567",
+                                        "5d2dc3e548f035404a1a4798",
+                                        "57adff4f24597737f373b6e6",
+                                        "5c0517910db83400232ffee5",
+                                        "591c4efa86f7741030027726",
+                                        "570fd79bd2720bc7458b4583",
+                                        "570fd6c2d2720bc6458b457f",
+                                        "558022b54bdc2dac148b458d",
+                                        "5c07dd120db834001c39092d",
+                                        "5c0a2cec0db834001b7ce47d",
+                                        "58491f3324597764bc48fa02",
+                                        "584924ec24597768f12ae244",
+                                        "5b30b0dc5acfc400153b7124",
+                                        "6165ac8c290d254f5e6b2f6c",
+                                        "60a23797a37c940de7062d02",
+                                        "5d2da1e948f035477b1ce2ba",
+                                        "5c0505e00db834001b735073",
+                                        "609a63b6e2ff132951242d09",
+                                        "584984812459776a704a82a6",
+                                        "59f9d81586f7744c7506ee62",
+                                        "570fd721d2720bc5458b4596",
+                                        "57ae0171245977343c27bfcf",
+                                        "5dfe6104585a0c3e995c7b82",
+                                        "5d1b5e94d7ad1a2b865a96b0",
+                                        "609bab8b455afd752b2e6138",
+                                        "58d39d3d86f77445bb794ae7",
+                                        "616554fe50224f204c1da2aa",
+                                        "5c7d55f52e221644f31bff6a",
+                                        "616584766ef05c2ce828ef57",
+                                        "5b3b6dc75acfc47a8773fb1e",
+                                        "615d8d878004cc50514c3233",
+                                        "5b2389515acfc4771e1be0c0",
+                                        "577d128124597739d65d0e56",
+                                        "618b9643526131765025ab35",
+                                        "618bab21526131765025ab3f",
+                                        "5c86592b2e2216000e69e77c",
+                                        "5a37ca54c4a282000d72296a",
+                                        "5d0a29fed7ad1a002769ad08",
+                                        "58d2664f86f7747fec5834f6",
+                                        "57c69dd424597774c03b7bbc",
+                                        "5b3b99265acfc4704b4a1afb",
+                                        "5aa66a9be5b5b0214e506e89",
+                                        "5aa66c72e5b5b00016327c93",
+                                        "5c1cdd302e221602b3137250",
+                                        "61714b2467085e45ef140b2c",
+                                        "6171407e50224f204c1da3c5",
+                                        "61713cc4d8e3106d9806c109",
+                                        "5b31163c5acfc400153b71cb",
+                                        "5a33b652c4a28232996e407c",
+                                        "5a33b2c9c4a282000c5a9511",
+                                        "59db7eed86f77461f8380365",
+                                        "5a1ead28fcdbcb001912fa9f",
+                                        "5dff77c759400025ea5150cf",
+                                        "626bb8532c923541184624b4",
+                                        "62811f461d5df4475f46a332",
+                                        "63fc449f5bd61c6cf3784a88",
+                                        "6477772ea8a38bb2050ed4db",
+                                        "6478641c19d732620e045e17",
+                                        "64785e7c19d732620e045e15",
+                                        "6567e751a715f85433025998",
+                                        "655f13e0a246670fb0373245",
+                                        "65392f611406374f82152ba5",
+                                        "653931da5db71d30ab1d6296",
+										"5c064c400db834001d23f468"
+                                    ],
+                                    "Shift": 0,
+                                    "ExcludedFilter": [
+                                        "770e00e2ed0ef4b33bf88dfc"
+                                    ]
+                                }
+                            ]
+                        },
+                        "_proto": "55d30c4c4bdc2db4468b457e",
+                        "_required": false
+                    }
+                ],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "Durability": 100,
+                "Accuracy": 0,
+                "Recoil": 0,
+                "Loudness": 0,
+                "EffectiveDistance": 0,
+                "Ergonomics": 0,
+                "Velocity": 0,
+                "RaidModdable": true,
+                "ToolModdable": true,
+                "BlocksFolding": false,
+                "BlocksCollapsible": false,
+                "IsAnimated": false,
+                "HasShoulderContact": false,
+                "SightingRange": 0,
+                "DoubleActionAccuracyPenaltyMult": 1,
+                "UniqueAnimationModID": 0
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Sight Adjustment System Negative Position 01",
+                "ShortName": "-01",
+                "Description": "MFAC Sight Adjustment System Negative Position 01. This moves the optic slighty to the rear by increment of 1."
+            },
+            "ch": {
+                "Name": "MFAC 瞄具位置移动系统位置移动座(向后-1）",
+                "ShortName": "向后-1",
+                "Description": "MFAC 瞄具位置移动系统位置移动座(向后-1）"
+            }
+        }
+    },
+    "mount_all_shifty_scope_nega002": {
+        "sptID": "770e013fcf46dd634cc88dfc",
+        "clone": "770e0132f6cd3bd0b7c88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_nega002.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Sight Adjustment System Negative Position 02",
+                "ShortName": "-02",
+                "Description": "MFAC Sight Adjustment System Negative Position 02. This moves the optic slighty to the rear by increment of 2."
+            },
+            "ch": {
+                "Name": "MFAC 瞄具位置移动系统位置移动座(向后-2）",
+                "ShortName": "向后-2",
+                "Description": "MFAC 瞄具位置移动系统位置移动座(向后-2）"
+            }
+        }
+    },
+    "mount_all_shifty_scope_nega003": {
+        "sptID": "770e014b4fefd5d7ea688dfc",
+        "clone": "770e0132f6cd3bd0b7c88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_nega003.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Sight Adjustment System Negative Position 03",
+                "ShortName": "-03",
+                "Description": "MFAC Sight Adjustment System Negative Position 03. This moves the optic slighty to the rear by increment of 3."
+            },
+            "ch": {
+                "Name": "MFAC 瞄具位置移动系统位置移动座(向后-3）",
+                "ShortName": "向后-3",
+                "Description": "MFAC 瞄具位置移动系统位置移动座(向后-3）"
+            }
+        }
+    },
+    "mount_all_shifty_scope_nega004": {
+        "sptID": "770e01ad1923dcddf1788dfc",
+        "clone": "770e0132f6cd3bd0b7c88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_nega004.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Sight Adjustment System Negative Position 04",
+                "ShortName": "-04",
+                "Description": "MFAC Sight Adjustment System Negative Position 04. This moves the optic slighty to the rear by increment of 4."
+            },
+            "ch": {
+                "Name": "MFAC 瞄具位置移动系统位置移动座(向后-4）",
+                "ShortName": "向后-4",
+                "Description": "MFAC 瞄具位置移动系统位置移动座(向后-4）"
+            }
+        }
+    },
+    "mount_all_shifty_scope_nega005": {
+        "sptID": "770e0277acf7dd12d5888dfc",
+        "clone": "770e0132f6cd3bd0b7c88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_nega005.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Sight Adjustment System Negative Position 05",
+                "ShortName": "-05",
+                "Description": "MFAC Sight Adjustment System Negative Position 01. This moves the optic slighty to the rear by increment of 5."
+            },
+            "ch": {
+                "Name": "MFAC 瞄具位置移动系统位置移动座(向后-5）",
+                "ShortName": "向后-5",
+                "Description": "MFAC 瞄具位置移动系统位置移动座(向后-5）"
+            }
+        }
+    },
+    "mount_all_shifty_scope_plus001": {
+        "sptID": "770e02c70087e4e6b4e88dfc",
+        "clone": "770e0132f6cd3bd0b7c88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_plus001.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Sight Adjustment System Positive Position 01",
+                "ShortName": "+01",
+                "Description": "MFAC Sight Adjustment System Positive Position 01. This moves the optic slighty to the front by increment of 1."
+            },
+            "ch": {
+                "Name": "MFAC 瞄具位置移动系统位置移动座(向前+1）",
+                "ShortName": "向前+1",
+                "Description": "MFAC 瞄具位置移动系统位置移动座(向前+1）"
+            }
+        }
+    },
+    "mount_all_shifty_scope_plus002": {
+        "sptID": "770e02dca66aceeccf388dfc",
+        "clone": "770e0132f6cd3bd0b7c88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_plus002.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Sight Adjustment System Positive Position 02",
+                "ShortName": "+02",
+                "Description": "MFAC Sight Adjustment System Positive Position 02. This moves the optic slighty to the front by increment of 2."
+            },
+            "ch": {
+                "Name": "MFAC 瞄具位置移动系统位置移动座(向前+2）",
+                "ShortName": "向前+2",
+                "Description": "MFAC 瞄具位置移动系统位置移动座(向前+2）"
+            }
+        }
+    },
+    "mount_all_shifty_scope_plus003": {
+        "sptID": "770e03baabf74e6f6b688dfc",
+        "clone": "770e0132f6cd3bd0b7c88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_plus003.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Sight Adjustment System Positive Position 03",
+                "ShortName": "+03",
+                "Description": "MFAC Sight Adjustment System Positive Position 03. This moves the optic slighty to the front by increment of 3."
+            },
+            "ch": {
+                "Name": "MFAC 瞄具位置移动系统位置移动座(向前+3）",
+                "ShortName": "向前+3",
+                "Description": "MFAC 瞄具位置移动系统位置移动座(向前+3）"
+            }
+        }
+    },
+    "mount_all_shifty_scope_plus004": {
+        "sptID": "770e03c1070be6d39fc88dfc",
+        "clone": "770e0132f6cd3bd0b7c88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_plus004.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Sight Adjustment System Positive Position 04",
+                "ShortName": "+04",
+                "Description": "MFAC Sight Adjustment System Positive Position 04. This moves the optic slighty to the front by increment of 4."
+            },
+            "ch": {
+                "Name": "MFAC 瞄具位置移动系统位置移动座(向前+4）",
+                "ShortName": "向前+4",
+                "Description": "MFAC 瞄具位置移动系统位置移动座(向前+4）"
+            }
+        }
+    },
+    "mount_all_shifty_scope_plus005": {
+        "sptID": "770e03f314abedf574b88dfc",
+        "clone": "770e0132f6cd3bd0b7c88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_plus005.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Sight Adjustment System Positive Position 05",
+                "ShortName": "+05",
+                "Description": "MFAC Sight Adjustment System Positive Position 05. This moves the optic slighty to the front by increment of 5."
+            },
+            "ch": {
+                "Name": "MFAC 瞄具位置移动系统位置移动座(向前+5）",
+                "ShortName": "向前+5",
+                "Description": "MFAC 瞄具位置移动系统位置移动座(向前+5）"
+            }
+        }
+    },
+    "mount_all_shifty_scope_plus006": {
+        "sptID": "770e04186bb8ae2028488dfc",
+        "clone": "770e0132f6cd3bd0b7c88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_plus006.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Sight Adjustment System Positive Position 06",
+                "ShortName": "+06",
+                "Description": "MFAC Sight Adjustment System Positive Position 06. This moves the optic slighty to the front by increment of 6."
+            },
+            "ch": {
+                "Name": "MFAC 瞄具位置移动系统位置移动座(向前+6）",
+                "ShortName": "向前+6",
+                "Description": "MFAC 瞄具位置移动系统位置移动座(向前+6）"
+            }
+        }
+    },
+    "mount_all_shifty_scope_plus007": {
+        "sptID": "770e04ab5b2bdeae00a88dfc",
+        "clone": "770e0132f6cd3bd0b7c88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_plus007.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Sight Adjustment System Positive Position 07",
+                "ShortName": "+07",
+                "Description": "MFAC Sight Adjustment System Positive Position 07. This moves the optic slighty to the front by increment of 7."
+            },
+            "ch": {
+                "Name": "MFAC 瞄具位置移动系统位置移动座(向前+7）",
+                "ShortName": "向前+7",
+                "Description": "MFAC 瞄具位置移动系统位置移动座(向前+7）"
+            }
+        }
+    },
+    "mount_all_shifty_scope_plus008": {
+        "sptID": "770e04d55fd86d7b65888dfc",
+        "clone": "770e0132f6cd3bd0b7c88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_plus008.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Sight Adjustment System Positive Position 08",
+                "ShortName": "+08",
+                "Description": "MFAC Sight Adjustment System Positive Position 08. This moves the optic slighty to the front by increment of 8."
+            },
+            "ch": {
+                "Name": "MFAC 瞄具位置移动系统位置移动座(向前+8）",
+                "ShortName": "向前+8",
+                "Description": "MFAC 瞄具位置移动系统位置移动座(向前+8）"
+            }
+        }
+    },
+    "mount_all_shifty_scope_plus009": {
+        "sptID": "770e04f7b662da2e6f088dfc",
+        "clone": "770e0132f6cd3bd0b7c88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_plus009.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Sight Adjustment System Positive Position 09",
+                "ShortName": "+09",
+                "Description": "MFAC Sight Adjustment System Positive Position 09. This moves the optic slighty to the front by increment of 9."
+            },
+            "ch": {
+                "Name": "MFAC 瞄具位置移动系统位置移动座(向前+9）",
+                "ShortName": "向前+9",
+                "Description": "MFAC 瞄具位置移动系统位置移动座(向前+9）"
+            }
+        }
+    },
+    "mount_all_shifty_scope_plus010": {
+        "sptID": "770e04f8deb0dd176c688dfc",
+        "clone": "770e0132f6cd3bd0b7c88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_plus010.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Sight Adjustment System Positive Position 10",
+                "ShortName": "+10",
+                "Description": "MFAC Sight Adjustment System Positive Position 10. This moves the optic slighty to the front by increment of 10."
+            },
+            "ch": {
+                "Name": "MFAC 瞄具位置移动系统位置移动座(向前+10）",
+                "ShortName": "向前+10",
+                "Description": "MFAC 瞄具位置移动系统位置移动座(向前+10）"
+            }
+        }
+    },
+    "mount_all_shifty_buffertube_base": {
+        "enable": true,
+        "sptID": "770e05cf8a40ec8dacb88dfc",
+        "clone": "55d4ae6c4bdc2d8b2f8b456e",
+        "enableCloneCompats": true,
+        "enableCloneConflicts": false,
+        "item": {
+            "_id": "770e05cf8a40ec8dacb88dfc",
+            "_name": "mount_all_shifty_buffertube_base",
+            "_parent": "55818a594bdc2db9688b456a",
+            "_type": "Item",
+            "_props": {
+                "Name": "mount_all_shifty_buffertube_base",
+                "ShortName": "mount_all_shifty_buffertube_base",
+                "Description": "mount_all_shifty_buffertube_base",
+                "Weight": 0,
+                "BackgroundColor": "blue",
+                "Width": 1,
+                "Height": 1,
+                "StackMaxSize": 1,
+                "ItemSound": "mod",
+                "Prefab": {
+                    "path": "mod_buffer_shifty_base.bundle",
+                    "rcid": ""
+                },
+                "Slots": [
+                    {
+                        "_id": "MOUNT_ALL_SHIFTY1",
+                        "_mergeSlotWithChildren": false,
+                        "_name": "mod_stock_001",
+                        "_parent": "770e05cf8a40ec8dacb88dfc",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                        "770e05dd9b902a4eee388dfc",
+                                        "770e05fdaef4e505bd988dfc",
+                                        "770e0649fbee530cacf88dfc",
+                                        "770e06a03343e95be9388dfc",
+                                        "770e06a65ffaefafa5d88dfc",
+                                        "770e06e93e49fbcdef288dfc"
+                                    ],
+                                    "Shift": 0
+                                }
+                            ]
+                        },
+                        "_proto": "55d30c4c4bdc2db4468b457e",
+                        "_required": true
+                    }
+                ],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "Durability": 100,
+                "Accuracy": 0,
+                "Recoil": 0,
+                "Loudness": 0,
+                "EffectiveDistance": 0,
+                "Ergonomics": 0,
+                "Velocity": 0,
+                "BlocksCollapsible": false,
+                "IsAnimated": false,
+                "HasShoulderContact": true,
+                "SightingRange": 0,
+                "DoubleActionAccuracyPenaltyMult": 1,
+                "UniqueAnimationModID": 0,
+                "IsShoulderContact": false,
+                "Foldable": false,
+                "Retractable": false,
+                "SizeReduceRight": 0,
+                "DurabilityBurnModificator": 1
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f757486f774093e6cb507",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tube Adjustment System Base Mount",
+                "ShortName": "TAS Base",
+                "Description": "MFAC Tube Adjustment System"
+            },
+            "ch": {
+                "Name": "MFAC AR15缓冲管位置移动系统底座",
+                "ShortName": "缓冲管底座",
+                "Description": "MFAC AR15缓冲管位置移动系统底座。"
+            }
+        },
+        "addToExistingItemFilters": {
+            "mod_stock_000": [
+                "5649be884bdc2d79388b4577",
+                "5a69a2ed8dc32e000d46d1f1",
+                "5bb20e58d4351e00320205d7",
+                "5bfe89510db834001808a127",
+                "5c0faeddd174af02a962601f",
+                "5c793fb92e221644f31bfb64",
+                "5c793fc42e221600114ca25d",
+                "602e3f1254072b51b239f713",
+                "606587e18900dc2d9a55b65f",
+                "638de3603a1a4031d8260b8c"
+            ],
+            "mod_stock": [
+                "5ae35b315acfc4001714e8b0",
+                "5afd7e095acfc40017541f61",
+                "5beec8b20db834001961942a",
+                "5cf50fc5d7f00c056c53f83c",
+                "5cf518cfd7f00c065b422214",
+                "5ef1ba28c64c5d0dfc0571a5",
+                "6275303a9f372d6ea97f9ec7",
+                "628b9a40717774443b15e9f2"
+            ]
+        }
+    },
+    "mod_buffer_shifty_extend01": {
+        "sptID": "770e05dd9b902a4eee388dfc",
+        "clone": "5649be884bdc2d79388b4577",
+        "enableCloneCompats": false,
+        "enableCloneConflicts": false,
+        "enable": true,
+        "item": {
+            "_id": "770e05dd9b902a4eee388dfc",
+            "_name": "mod_buffer_shifty_extend01",
+            "_parent": "55818a594bdc2db9688b456a",
+            "_type": "Item",
+            "_props": {
+                "Name": "mod_buffer_shifty_extend01",
+                "ShortName": "mod_buffer_shifty_extend01",
+                "Description": "mod_buffer_shifty_extend01",
+                "Prefab": {
+                    "path": "mod_buffer_shifty_extend01.bundle",
+                    "rcid": ""
+                },
+                "BackgroundColor": "blue",
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": true,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "Accuracy": 0,
+                "Ergonomics": 0,
+                "Recoil": 0,
+                "Weight": 0,
+                "Width": 1,
+                "Height": 1,
+                "Slots": [
+                    {
+                        "_id": "mod_buffer_shifty_extend01sto",
+                        "_mergeSlotWithChildren": false,
+                        "_name": "mod_stock_002",
+                        "_parent": "770e05dd9b902a4eee388dfc",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                        "5fc2369685fd526b824a5713",
+                                        "606587d11246154cad35d635",
+                                        "5a9eb32da2750c00171b3f9c",
+                                        "5bfe86df0db834001b734685",
+                                        "55d4ae6c4bdc2d8b2f8b456e",
+                                        "5c87a07c2e2216001219d4a2",
+                                        "5bb20e70d4351e0035629f8f",
+                                        "5beec8c20db834001d2c465c",
+                                        "5fbbaa86f9986c4cff3fe5f6",
+                                        "5fce16961f152d4312622bc9",
+                                        "5ae30c9a5acfc408fb139a03",
+                                        "5d135e83d7ad1a21b83f42d8",
+                                        "5d135ecbd7ad1a21c176542e",
+                                        "56eabf3bd2720b75698b4569",
+                                        "58d2946386f774496974c37e",
+                                        "58d2946c86f7744e271174b5",
+                                        "58d2947686f774485c6a1ee5",
+                                        "58d2947e86f77447aa070d53",
+                                        "5d44069ca4b9361ebd26fc37",
+                                        "5d4406a8a4b9361e4f6eb8b7",
+                                        "5947c73886f7747701588af5",
+                                        "5c793fde2e221601da358614",
+                                        "5b39f8db5acfc40016387a1b",
+                                        "628a85ee6b1d481ff772e9d5",
+                                        "602e620f9b513876d4338d9a",
+                                        "6516e91f609aaf354b34b3e2",
+                                        "6516e971a3d4c6497930b450",
+                                        "6529370c405a5f51dd023db8"
+                                    ],
+                                    "Shift": 0,
+                                    "ExcludedFilter": [
+                                        "770e05cf8a40ec8dacb88dfc"
+                                    ]
+                                }
+                            ]
+                        },
+                        "_proto": "55d30c4c4bdc2db4468b457e",
+                        "_required": false
+                    }
+                ]
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f757486f774093e6cb507",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tube Adjustment System Extended Position 01",
+                "ShortName": "E1",
+                "Description": "MFAC Tube Adjustment System Extended Position 01. This moves the stock slighty to the rear by increment of 1."
+            },
+            "ch": {
+                "Name": "MFAC 缓冲管位置移动系统位置移动座(加长+1）",
+                "ShortName": "加长+1",
+                "Description": "MFAC 缓冲管位置移动系统位置移动座(加长+1）"
+            }
+        }
+    },
+    "mod_buffer_shifty_extend02": {
+        "sptID": "770e05fdaef4e505bd988dfc",
+        "clone": "770e05dd9b902a4eee388dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mod_buffer_shifty_extend02.bundle",
+                    "rcid": ""
+                },
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": true,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "Accuracy": 0,
+                "Ergonomics": 0,
+                "Recoil": 0,
+                "Weight": 0,
+                "Width": 1,
+                "Height": 1
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f757486f774093e6cb507",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tube Adjustment System Extended Position 02",
+                "ShortName": "E2",
+                "Description": "MFAC Tube Adjustment System Extended Position 02. This moves the stock slighty to the rear by increment of 2."
+            },
+            "ch": {
+                "Name": "MFAC 缓冲管位置移动系统位置移动座(加长+2）",
+                "ShortName": "加长+2",
+                "Description": "MFAC 缓冲管位置移动系统位置移动座(加长+2）"
+            }
+        }
+    },
+    "mod_buffer_shifty_extend03": {
+        "sptID": "770e0649fbee530cacf88dfc",
+        "clone": "770e05dd9b902a4eee388dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mod_buffer_shifty_extend03.bundle",
+                    "rcid": ""
+                },
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": true,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 1,
+                "ExtraSizeUp": 0,
+                "Accuracy": 0,
+                "Ergonomics": 0,
+                "Recoil": 0
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f757486f774093e6cb507",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tube Adjustment System Extended Position 03",
+                "ShortName": "E3",
+                "Description": "MFAC Tube Adjustment System Extended Position 03. This moves the stock slighty to the rear by increment of 3."
+            },
+            "ch": {
+                "Name": "MFAC 缓冲管位置移动系统位置移动座(加长+3）",
+                "ShortName": "加长+3",
+                "Description": "MFAC 缓冲管位置移动系统位置移动座(加长+3）"
+            }
+        }
+    },
+    "mod_buffer_shifty_extend04": {
+        "sptID": "770e06a03343e95be9388dfc",
+        "clone": "770e05dd9b902a4eee388dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mod_buffer_shifty_extend04.bundle",
+                    "rcid": ""
+                },
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": true,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 1,
+                "ExtraSizeUp": 0,
+                "Accuracy": 0,
+                "Ergonomics": 0,
+                "Recoil": 0
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f757486f774093e6cb507",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tube Adjustment System Extended Position 04",
+                "ShortName": "E4",
+                "Description": "MFAC Tube Adjustment System Extended Position 04. This moves the stock slighty to the rear by increment of 4."
+            },
+            "ch": {
+                "Name": "MFAC 缓冲管位置移动系统位置移动座(加长+4）",
+                "ShortName": "加长+4",
+                "Description": "MFAC 缓冲管位置移动系统位置移动座(加长+4）"
+            }
+        }
+    },
+    "mod_buffer_shifty_retract01": {
+        "sptID": "770e06a65ffaefafa5d88dfc",
+        "clone": "770e05dd9b902a4eee388dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mod_buffer_shifty_retract01.bundle",
+                    "rcid": ""
+                },
+                "Ergonomics": 0,
+                "Recoil": 0
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f757486f774093e6cb507",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tube Adjustment System Retracted Position 01",
+                "ShortName": "R1",
+                "Description": "MFAC Tube Adjustment System Retracted Position 01. This moves the stock slighty to the rear by increment of 1."
+            },
+            "ch": {
+                "Name": "MFAC 缓冲管位置移动系统位置移动座(缩短-1）",
+                "ShortName": "缩短-1",
+                "Description": "MFAC 缓冲管位置移动系统位置移动座(缩短-1）"
+            }
+        }
+    },
+    "mod_buffer_shifty_retract02": {
+        "sptID": "770e06e93e49fbcdef288dfc",
+        "clone": "770e05dd9b902a4eee388dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mod_buffer_shifty_retract02.bundle",
+                    "rcid": ""
+                },
+                "Ergonomics": 0,
+                "Recoil": 0
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f757486f774093e6cb507",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tube Adjustment System Retracted Position 02",
+                "ShortName": "R2",
+                "Description": "MFAC Tube Adjustment System Retracted Position 02. This moves the stock slighty to the front by increment of 2."
+            },
+            "ch": {
+                "Name": "MFAC 缓冲管位置移动系统位置移动座(缩短-2）",
+                "ShortName": "缩短-2",
+                "Description": "MFAC 缓冲管位置移动系统位置移动座(缩短-2）"
+            }
+        }
+    },
+    "mount_all_shifty_grip_base": {
+        "sptID": "770e0806a0a8dad7e8188dfc",
+        "enableCloneCompats": true,
+        "enableCloneConflicts": false,
+        "clone": "5c7fc87d2e221644f31c0298",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_base.bundle",
+                    "rcid": ""
+                },
+                "Width": 1,
+                "Height": 1,
+                "Slots": [
+                    {
+                        "_id": "mount_all_shifty_grip_base_mount",
+                        "_mergeSlotWithChildren": false,
+                        "_name": "mod_mount",
+                        "_parent": "770e0806a0a8dad7e8188dfc",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                        "770e09577db7aefb2fd88dfc",
+                                        "770e09cffd81b55fc6c88dfc",
+                                        "770e09d5ee1f2b1882f88dfc",
+                                        "770e0a19fe9d9de60b688dfc",
+                                        "770e0a41f8fa73ba63188dfc",
+                                        "770e0a956dd931bfdc688dfc",
+                                        "770e0aa2d3dfcbdae4388dfc",
+                                        "770e0aaee0ffdcceaa288dfc",
+                                        "770e0ab605fae92b40a88dfc",
+                                        "770e0abdb7bb06c86df88dfc"
+                                    ],
+                                    "Shift": 0
+                                }
+                            ]
+                        },
+                        "_proto": "55d30c4c4bdc2db4468b457e",
+                        "_required": true
+                    }
+                ],
+                "Ergonomics": 0,
+                "Weight": 0,
+                "Recoil": 0
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Foregrip Adjustment System Base Mount",
+                "ShortName": "FAS Base",
+                "Description": "MFAC Foregrip Adjustment System"
+            },
+            "ch": {
+                "Name": "MFAC 前握把位置移动系统底座",
+                "ShortName": "前握把底座",
+                "Description": "MFAC 前握把位置移动系统底座。"
+            }
+        },
+        "addToExistingItemFilters": {
+            "mod_foregrip": [
+                "55d45f484bdc2d972f8b456d",
+                "5648ae314bdc2d3d1c8b457f",
+                "5648b4534bdc2d3d1c8b4580",
+                "57ffa9f4245977728561e844",
+                "5827272a24597748c74bdeea",
+                "58272b392459774b4c7b3ccd",
+                "58a5c12e86f7745d585a2b9e",
+                "59e0bed186f774156f04ce84",
+                "5a788031c585673f2b5c1c79",
+                "5a9548c9159bd400133e97b3",
+                "5a957c3fa2750c00137fa5f7",
+                "5a9d6d13a2750c00164f6b03",
+                "5a9d6d21a2750c00137fa649",
+                "5ab372a310e891001717f0d8",
+                "5b099a9d5acfc47a8607efe7",
+                "5b30bc285acfc47a8608615d",
+                "5b4736b986f77405cb415c10",
+                "5b7be1ca5acfc400170e2d2f",
+                "5b7be46e5acfc400170e2dcf",
+                "5b7be4895acfc400170e2dd5",
+                "5bb20de5d4351e0035629e59",
+                "5bb20df1d4351e00347787d5",
+                "5bb20dfcd4351e00334c9e24",
+                "5bd70322209c4d00d7167b8f",
+                "5beec3e30db8340019619424",
+                "5c617a5f2e2216000f1e81b3",
+                "5c9a26332e2216001219ea70",
+                "5cdaa99dd7f00c002412d0b2",
+                "5cf4e3f3d7f00c06595bc7f0",
+                "5d00ede1d7ad1a0940739a76",
+                "5d00ef6dd7ad1a0940739b16",
+                "5d010d1cd7ad1a59283b1ce7",
+                "5d15ce51d7ad1a1eff619092",
+                "5d19cd96d7ad1a4a992c9f52",
+                "5de8fbf2b74cd90030650c79",
+                "5e5699df2161e06ac158df6f",
+                "5efaf417aeb21837e749c7f2",
+                "5f2aa493cd375f14e15eea72",
+                "5f6331e097199b7db2128dc2",
+                "5f63418ef5750b524b45f116",
+                "5fbb978207e8a97d1f0902d3",
+                "5fc53954f8b6a877a729eaeb",
+                "61703001d92c473c77021497",
+                "61712eae6c780c1e710c9a1d",
+                "61816df1d3a39d50044c139e",
+                "62444cb99f47004c781903eb",
+                "6275303a9f372d6ea97f9ec7",
+                "637f57b78d137b27f70c496a",
+                "638f1ff84822287cad04be9d",
+                "638f2003bbd47aeb9e0ff637",
+                "6396aaa9a52ace83df0840ab"
+            ],
+            "mod_handguard": [
+                "5cadfbf7ae92152ac412eeef"
+            ]
+        }
+    },
+    "mount_all_shifty_grip_nega001": {
+        "sptID": "770e09577db7aefb2fd88dfc",
+        "enable": true,
+        "item": {
+            "_id": "770e09577db7aefb2fd88dfc",
+            "_name": "mount_all_shifty_grip_nega001",
+            "_parent": "55818b224bdc2dde698b456f",
+            "_type": "Item",
+            "_props": {
+                "Name": "mount_all_shifty_grip_nega001",
+                "ShortName": "mount_all_shifty_grip_nega001",
+                "Description": "mount_all_shifty_grip_nega001",
+                "Accuracy": 0,
+                "AnimationVariantsNumber": 0,
+                "BackgroundColor": "blue",
+                "BlocksCollapsible": false,
+                "BlocksFolding": false,
+                "CanPutIntoDuringTheRaid": true,
+                "CanRequireOnRagfair": false,
+                "CanSellOnRagfair": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "ConflictingItems": [],
+                "CoolFactor": 1,
+                "DiscardLimit": -1,
+                "DiscardingBlock": false,
+                "DoubleActionAccuracyPenaltyMult": 1,
+                "DropSoundType": "None",
+                "Durability": 100,
+                "EffectiveDistance": 0,
+                "ExamineExperience": 5,
+                "ExamineTime": 1,
+                "ExaminedByDefault": true,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "Grids": [],
+                "HasShoulderContact": false,
+                "HeatFactor": 1,
+                "HideEntrails": false,
+                "InsuranceDisabled": false,
+                "IsAlwaysAvailableForInsurance": false,
+                "IsAnimated": false,
+                "IsLockedafterEquip": false,
+                "IsSpecialSlotOnly": false,
+                "IsUnbuyable": false,
+                "IsUndiscardable": false,
+                "IsUngivable": false,
+                "IsUnremovable": false,
+                "IsUnsaleable": false,
+                "ItemSound": "mod",
+                "LootExperience": 5,
+                "Loudness": 0,
+                "MergesWithChildren": true,
+                "NotShownInSlot": false,
+                "QuestItem": false,
+                "QuestStashMaxCount": 0,
+                "RagFairCommissionModifier": 1,
+                "RaidModdable": true,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "SightingRange": 0,
+                "StackMaxSize": 1,
+                "StackObjectsCount": 1,
+                "ToolModdable": false,
+                "UniqueAnimationModID": 0,
+                "Unlootable": false,
+                "UnlootableFromSide": [],
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "Velocity": 0,
+                "Width": 1,
+                "Height": 1,
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_nega001.bundle",
+                    "rcid": ""
+                },
+                "Weight": 0,
+                "Slots": [
+                    {
+                        "_id": "mount_all_shifty_grip_nega001sco",
+                        "_mergeSlotWithChildren": false,
+                        "_name": "mod_foregrip",
+                        "_parent": "770e09577db7aefb2fd88dfc",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                        "5c7fc87d2e221644f31c0298",
+                                        "5cda9bcfd7f00c0c0b53e900",
+                                        "59f8a37386f7747af3328f06",
+                                        "619386379fb0c665d5490dbe",
+                                        "5c87ca002e221600114cb150",
+                                        "588226d124597767ad33f787",
+                                        "588226dd24597767ad33f789",
+                                        "588226e62459776e3e094af7",
+                                        "588226ef24597767af46e39c",
+                                        "59fc48e086f77463b1118392",
+                                        "5fce0cf655375d18a253eff0",
+                                        "5cf4fb76d7f00c065703d3ac",
+                                        "5b057b4f5acfc4771e1bd3e9",
+                                        "5c791e872e2216001219c40a",
+                                        "558032614bdc2de7118b4585",
+                                        "58c157be86f77403c74b2bb6",
+                                        "58c157c886f774032749fb06",
+                                        "5f6340d3ca442212f4047eb2",
+                                        "591af28e86f77414a27a9e1d",
+                                        "5c1cd46f2e22164bef5cfedb",
+                                        "5c1bc4812e22164bef5cfde7",
+                                        "5c1bc5612e221602b5429350",
+                                        "5c1bc5af2e221602b412949b",
+                                        "5c1bc5fb2e221602b1779b32",
+                                        "5c1bc7432e221602b412949d",
+                                        "5c1bc7752e221602b1779b34",
+                                        "64806bdd26c80811d408d37a",
+                                        "64807a29e5ffe165600abc97",
+                                        "648067db042be0705c0b3009",
+                                        "65169d5b30425317755f8e25",
+                                        "655df24fdf80b12750626d0a",
+                                        "655dccfdbdcc6b5df71382b6",
+                                        "5a7dbfc1159bd40016548fde"
+                                    ],
+                                    "Shift": 0,
+                                    "ExcludedFilter": [
+                                        "770e0806a0a8dad7e8188dfc"
+                                    ]
+                                }
+                            ]
+                        },
+                        "_proto": "55d30c4c4bdc2db4468b457e",
+                        "_required": false
+                    }
+                ],
+                "Ergonomics": 0,
+                "Recoil": 0
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Foregrip Adjustment System Negative Position 01",
+                "ShortName": "FG-01",
+                "Description": "MFAC Foregrip Adjustment System Negative Position 01. This moves the foregrip slighty to the rear by increment of 1."
+            },
+            "ch": {
+                "Name": "MFAC 前握把位置移动系统位置移动座(向后-1）",
+                "ShortName": "向后-1",
+                "Description": "MFAC 前握把位置移动系统位置移动座(向后-1）"
+            }
+        },
+        "addToThisItemsFilters": {
+            "mod_foregrip": [
+                "5c7fc87d2e221644f31c0298",
+                "5cda9bcfd7f00c0c0b53e900",
+                "59f8a37386f7747af3328f06",
+                "619386379fb0c665d5490dbe",
+                "5c87ca002e221600114cb150",
+                "588226d124597767ad33f787",
+                "588226dd24597767ad33f789",
+                "588226e62459776e3e094af7",
+                "588226ef24597767af46e39c",
+                "59fc48e086f77463b1118392",
+                "5fce0cf655375d18a253eff0",
+                "5cf4fb76d7f00c065703d3ac",
+                "5b057b4f5acfc4771e1bd3e9",
+                "5c791e872e2216001219c40a",
+                "558032614bdc2de7118b4585",
+                "58c157be86f77403c74b2bb6",
+                "58c157c886f774032749fb06",
+                "5f6340d3ca442212f4047eb2",
+                "591af28e86f77414a27a9e1d",
+                "5c1cd46f2e22164bef5cfedb",
+                "5c1bc4812e22164bef5cfde7",
+                "5c1bc5612e221602b5429350",
+                "5c1bc5af2e221602b412949b",
+                "5c1bc5fb2e221602b1779b32",
+                "5c1bc7432e221602b412949d",
+                "5c1bc7752e221602b1779b34",
+                "64806bdd26c80811d408d37a",
+                "64807a29e5ffe165600abc97",
+                "648067db042be0705c0b3009",
+                "65169d5b30425317755f8e25",
+                "655df24fdf80b12750626d0a",
+                "655dccfdbdcc6b5df71382b6",
+                "5a7dbfc1159bd40016548fde"
+            ]
+        }
+    },
+    "mount_all_shifty_grip_nega002": {
+        "sptID": "770e09cffd81b55fc6c88dfc",
+        "clone": "770e09577db7aefb2fd88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_nega002.bundle",
+                    "rcid": ""
+                },
+                "Ergonomics": 0,
+                "Recoil": 0
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Foregrip Adjustment System Negative Position 02",
+                "ShortName": "FG-02",
+                "Description": "MFAC Foregrip Adjustment System Negative Position 02. This moves the foregrip slighty to the rear by increment of 2."
+            },
+            "ch": {
+                "Name": "MFAC 前握把位置移动系统位置移动座(向后-2）",
+                "ShortName": "向后-2",
+                "Description": "MFAC 前握把位置移动系统位置移动座(向后-2）"
+            }
+        }
+    },
+    "mount_all_shifty_grip_nega003": {
+        "sptID": "770e09d5ee1f2b1882f88dfc",
+        "clone": "770e09577db7aefb2fd88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_nega003.bundle",
+                    "rcid": ""
+                },
+                "Ergonomics": 0,
+                "Recoil": 0
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Foregrip Adjustment System Negative Position 03",
+                "ShortName": "FG-03",
+                "Description": "MFAC Foregrip Adjustment System Negative Position 03. This moves the foregrip slighty to the rear by increment of 3."
+            },
+            "ch": {
+                "Name": "MFAC 前握把位置移动系统位置移动座(向后-3）",
+                "ShortName": "向后-3",
+                "Description": "MFAC 前握把位置移动系统位置移动座(向后-3）"
+            }
+        }
+    },
+    "mount_all_shifty_grip_nega004": {
+        "sptID": "770e0a19fe9d9de60b688dfc",
+        "clone": "770e09577db7aefb2fd88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_nega004.bundle",
+                    "rcid": ""
+                },
+                "Ergonomics": 0,
+                "Recoil": 0
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Foregrip Adjustment System Negative Position 04",
+                "ShortName": "FG-04",
+                "Description": "MFAC Foregrip Adjustment System Negative Position 04. This moves the foregrip slighty to the rear by increment of 4."
+            },
+            "ch": {
+                "Name": "MFAC 前握把位置移动系统位置移动座(向后-4）",
+                "ShortName": "向后-4",
+                "Description": "MFAC 前握把位置移动系统位置移动座(向后-4）"
+            }
+        }
+    },
+    "mount_all_shifty_grip_nega005": {
+        "sptID": "770e0a41f8fa73ba63188dfc",
+        "clone": "770e09577db7aefb2fd88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_nega005.bundle",
+                    "rcid": ""
+                },
+                "Ergonomics": 0,
+                "Recoil": 0
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Foregrip Adjustment System Negative Position 05",
+                "ShortName": "FG-05",
+                "Description": "MFAC Foregrip Adjustment System Negative Position 01. This moves the foregrip slighty to the rear by increment of 5."
+            },
+            "ch": {
+                "Name": "MFAC 前握把位置移动系统位置移动座(向后-5）",
+                "ShortName": "向后-5",
+                "Description": "MFAC 前握把位置移动系统位置移动座(向后-5）"
+            }
+        }
+    },
+    "mount_all_shifty_grip_plus001": {
+        "sptID": "770e0a956dd931bfdc688dfc",
+        "clone": "770e09577db7aefb2fd88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_plus001.bundle",
+                    "rcid": ""
+                },
+                "Ergonomics": 0,
+                "Recoil": 0
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Foregrip Adjustment System Positive Position 01",
+                "ShortName": "FG+01",
+                "Description": "MFAC Foregrip Adjustment System Positive Position 01. This moves the foregrip slighty to the front by increment of 1."
+            },
+            "ch": {
+                "Name": "MFAC 前握把位置移动系统位置移动座(向前+1）",
+                "ShortName": "向前+1",
+                "Description": "MFAC 前握把位置移动系统位置移动座(向前+1）"
+            }
+        }
+    },
+    "mount_all_shifty_grip_plus002": {
+        "sptID": "770e0aa2d3dfcbdae4388dfc",
+        "clone": "770e09577db7aefb2fd88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_plus002.bundle",
+                    "rcid": ""
+                },
+                "Ergonomics": 0,
+                "Recoil": 0
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Foregrip Adjustment System Positive Position 02",
+                "ShortName": "FG+02",
+                "Description": "MFAC Foregrip Adjustment System Positive Position 02. This moves the foregrip slighty to the front by increment of 2."
+            },
+            "ch": {
+                "Name": "MFAC 前握把位置移动系统位置移动座(向前+2）",
+                "ShortName": "向前+2",
+                "Description": "MFAC 前握把位置移动系统位置移动座(向前+2）"
+            }
+        }
+    },
+    "mount_all_shifty_grip_plus003": {
+        "sptID": "770e0aaee0ffdcceaa288dfc",
+        "clone": "770e09577db7aefb2fd88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_plus003.bundle",
+                    "rcid": ""
+                },
+                "Ergonomics": 0,
+                "Recoil": 0
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Foregrip Adjustment System Positive Position 03",
+                "ShortName": "FG+03",
+                "Description": "MFAC Foregrip Adjustment System Positive Position 03. This moves the foregrip slighty to the front by increment of 3."
+            },
+            "ch": {
+                "Name": "MFAC 前握把位置移动系统位置移动座(向前+3）",
+                "ShortName": "向前+3",
+                "Description": "MFAC 前握把位置移动系统位置移动座(向前+3）"
+            }
+        }
+    },
+    "mount_all_shifty_grip_plus004": {
+        "sptID": "770e0ab605fae92b40a88dfc",
+        "clone": "770e09577db7aefb2fd88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_plus004.bundle",
+                    "rcid": ""
+                },
+                "Ergonomics": 0,
+                "Recoil": 0
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Foregrip Adjustment System Positive Position 04",
+                "ShortName": "FG+04",
+                "Description": "MFAC Foregrip Adjustment System Positive Position 04. This moves the foregrip slighty to the front by increment of 4."
+            },
+            "ch": {
+                "Name": "MFAC 前握把位置移动系统位置移动座(向前+4）",
+                "ShortName": "向前+4",
+                "Description": "MFAC 前握把位置移动系统位置移动座(向前+4）"
+            }
+        }
+    },
+    "mount_all_shifty_grip_plus005": {
+        "sptID": "770e0abdb7bb06c86df88dfc",
+        "clone": "770e09577db7aefb2fd88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_plus005.bundle",
+                    "rcid": ""
+                },
+                "Ergonomics": 0,
+                "Recoil": 0
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Foregrip Adjustment System Positive Position 05",
+                "ShortName": "FG+05",
+                "Description": "MFAC Foregrip Adjustment System Positive Position 05. This moves the foregrip slighty to the front by increment of 5."
+            },
+            "ch": {
+                "Name": "MFAC 前握把位置移动系统位置移动座(向前+5）",
+                "ShortName": "向前+5",
+                "Description": "MFAC 前握把位置移动系统位置移动座(向前+5）"
+            }
+        }
+    },
+    "mount_all_shifty_tac_base": {
+        "sptID": "770e0acea05010dead288dfc",
+        "enableCloneCompats": true,
+        "enableCloneConflicts": false,
+        "clone": "544909bb4bdc2d6f028b4577",
+        "enable": true,
+        "item": {
+            "_name": "mount_all_shifty_tac_base",
+            "_props": {
+                "Name": "mount_all_shifty_tac_base",
+                "ShortName": "mount_all_shifty_tac_base",
+                "Description": "mount_all_shifty_tac_base",
+                "ConflictingItems": [
+                    "57a3459f245977764a01f703",
+                    "59eb7ebe86f7740b373438ce",
+                    "5a9fc7e6a2750c0032157184",
+                    "5b30bc165acfc40016387293",
+                    "5b800ed086f7747baf6e2f9e",
+                    "5b84038986f774774913b0c1",
+                    "5beecbb80db834001d2c465e",
+                    "5bfeb32b0db834001a6694d9",
+                    "5c0102aa0db834001b734ba1",
+                    "5cbda392ae92155f3c17c39f",
+                    "5d0236dad7ad1a0940739d29",
+                    "5de8fc0b205ddc616a6bc51b",
+                    "6284bd5f95250a29bc628a30",
+                    "628a83c29179c324ed269508",
+                    "628b916469015a4e1711ed8d",
+                    "6388c4478d895f557a0c6512"
+                ],
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgripall_base.bundle",
+                    "rcid": ""
+                },
+                "Width": 1,
+                "Height": 1,
+                "Slots": [
+                    {
+                        "_id": "mount_all_shifty_tac_base_mount",
+                        "_mergeSlotWithChildren": false,
+                        "_name": "mod_mount",
+                        "_parent": "770e0acea05010dead288dfc",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                        "770e0aded5ebb0fbefb88dfc",
+                                        "770e0af976b42d2883b88dfc",
+                                        "770e0afdcbcff4cf9e388dfc",
+                                        "770e0b1b0db2c5f8c5d88dfc",
+                                        "770e0b487eacc85ccdb88dfc",
+                                        "770e0bacc401b2ad96e88dfc",
+                                        "770e0baccdfe7b86e3a88dfc",
+                                        "770e0bce53dfcdf33b888dfc",
+                                        "770e0bdbfed30d7dc5488dfc",
+                                        "770e0beecafcf67000b88dfc",
+                                        "770e0c1abc77ca5f4f188dfc",
+                                        "770e0c3d8e321a07dff88dfc",
+                                        "770e0c9a7cbd5ac9dd588dfc",
+                                        "770e0cb8a75cfb2d2ca88dfc",
+                                        "770e0cea7bef48faf1188dfc"
+                                    ],
+                                    "Shift": 0
+                                }
+                            ]
+                        },
+                        "_proto": "55d30c4c4bdc2db4468b457e",
+                        "_required": true
+                    }
+                ],
+                "Ergonomics": 0,
+                "Weight": 0,
+                "Recoil": 0
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tactical Device Adjustment System Base Mount",
+                "ShortName": "DAS Base",
+                "Description": "MFAC Tactical Device Adjustment System"
+            },
+            "ch": {
+                "Name": "MFAC 战术装置位置移动系统底座",
+                "ShortName": "战术装置底座",
+                "Description": "MFAC 战术装置位置移动系统底座。"
+            }
+        }
+    },
+    "mount_all_shifty_tac_nega001": {
+        "sptID": "770e0aded5ebb0fbefb88dfc",
+        "enableCloneCompats": false,
+        "enableCloneConflicts": false,
+        "clone": "59e0be5d86f7742d48765bd2",
+        "enable": true,
+        "item": {
+            "_id": "770e0aded5ebb0fbefb88dfc",
+            "_name": "mount_all_shifty_tac_nega001",
+            "_parent": "55818b224bdc2dde698b456f",
+            "_type": "Item",
+            "_props": {
+                "Name": "mount_all_shifty_tac_nega001",
+                "ShortName": "mount_all_shifty_tac_nega001",
+                "Description": "mount_all_shifty_tac_nega001",
+                "Weight": 0.0,
+                "BackgroundColor": "blue",
+                "Width": 1,
+                "Height": 1,
+                "StackMaxSize": 1,
+                "ItemSound": "mod",
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_nega001.bundle",
+                    "rcid": ""
+                },
+                "UsePrefab": {
+                    "path": "",
+                    "rcid": ""
+                },
+                "StackObjectsCount": 1,
+                "NotShownInSlot": false,
+                "ExaminedByDefault": true,
+                "ExamineTime": 1,
+                "IsUndiscardable": false,
+                "IsUnsaleable": false,
+                "IsUnbuyable": false,
+                "IsUngivable": false,
+                "IsLockedafterEquip": false,
+                "QuestItem": false,
+                "LootExperience": 5,
+                "ExamineExperience": 5,
+                "HideEntrails": false,
+                "RepairCost": 0,
+                "RepairSpeed": 0,
+                "ExtraSizeLeft": 0,
+                "ExtraSizeRight": 0,
+                "ExtraSizeUp": 0,
+                "ExtraSizeDown": 0,
+                "ExtraSizeForceAdd": false,
+                "MergesWithChildren": true,
+                "CanSellOnRagfair": true,
+                "CanRequireOnRagfair": false,
+                "ConflictingItems": [],
+                "Unlootable": false,
+                "UnlootableFromSlot": "FirstPrimaryWeapon",
+                "UnlootableFromSide": [],
+                "AnimationVariantsNumber": 0,
+                "DiscardingBlock": false,
+                "RagFairCommissionModifier": 1,
+                "IsAlwaysAvailableForInsurance": false,
+                "DiscardLimit": -1,
+                "DropSoundType": "None",
+                "InsuranceDisabled": false,
+                "QuestStashMaxCount": 0,
+                "IsSpecialSlotOnly": false,
+                "IsUnremovable": false,
+                "Grids": [],
+                "Slots": [
+                    {
+                        "_name": "mod_tactical",
+                        "_id": "623c2f4242aee3103f1c44b9",
+                        "_parent": "770e0aded5ebb0fbefb88dfc",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Shift": 0,
+                                    "Filter": [
+                                        "5a800961159bd4315e3a1657",
+                                        "57fd23e32459772d0805bcf1",
+                                        "544909bb4bdc2d6f028b4577",
+                                        "5d10b49bd7ad1a1a560708b0",
+                                        "5c06595c0db834001a66af6c",
+                                        "5cc9c20cd7f00c001336c65d",
+                                        "5d2369418abbc306c62e0c80",
+                                        "5b07dd285acfc4001754240d",
+                                        "56def37dd2720bec348b456a",
+                                        "5a7b483fe899ef0016170d15",
+                                        "61605d88ffa6e502ac5e7eeb",
+                                        "5a5f1ce64f39f90b401987bc",
+                                        "560d657b4bdc2da74d8b4572",
+                                        "5b3a337e5acfc4704b4a19a0",
+                                        "5c5952732e2216398b5abda2",
+                                        "57d17e212459775a1179a0f5",
+                                        "6267c6396b642f77f56f5c1c",
+                                        "6272370ee4013c5d7e31f418",
+                                        "6272379924e29f06af4d5ecb",
+                                        "626becf9582c3e319310b837",
+                                        "644a3df63b0b6f03e101e065",
+                                        "646f6322f43d0c5d62063715",
+										"5649a2464bdc2d91118b45a8"
+                                    ],
+                                    "ExcludedFilter": [
+                                        "770e0acea05010dead288dfc"
+                                    ]
+                                }
+                            ]
+                        },
+                        "_required": false,
+                        "_mergeSlotWithChildren": false,
+                        "_proto": "55d30c4c4bdc2db4468b457e"
+                    }
+                ],
+                "CanPutIntoDuringTheRaid": true,
+                "CantRemoveFromSlotsDuringRaid": [],
+                "Durability": 100,
+                "Accuracy": 0,
+                "Recoil": 0,
+                "Loudness": 0,
+                "EffectiveDistance": 0,
+                "Ergonomics": 0,
+                "Velocity": 0,
+                "RaidModdable": true,
+                "ToolModdable": true,
+                "BlocksFolding": false,
+                "BlocksCollapsible": false,
+                "IsAnimated": false,
+                "HasShoulderContact": false,
+                "SightingRange": 0,
+                "DoubleActionAccuracyPenaltyMult": 1,
+                "UniqueAnimationModID": 0,
+                "HeatFactor": 1,
+                "CoolFactor": 1
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tactical Device Adjustment System Negative Position 01",
+                "ShortName": "TD-01",
+                "Description": "MFAC Tactical Device Adjustment System Negative Position 01. This moves the tactical device slighty to the rear by increment of 1."
+            },
+            "ch": {
+                "Name": "MFAC 战术装置位置移动系统位置移动座(向后-1）",
+                "ShortName": "向后-1",
+                "Description": "MFAC 战术装置位置移动系统位置移动座(向后-1）"
+            }
+        },
+        "addToThisItemsFilters": {
+            "mod_tactical": [
+                "5a800961159bd4315e3a1657",
+                "57fd23e32459772d0805bcf1",
+                "544909bb4bdc2d6f028b4577",
+                "5d10b49bd7ad1a1a560708b0",
+                "5c06595c0db834001a66af6c",
+                "5cc9c20cd7f00c001336c65d",
+                "5d2369418abbc306c62e0c80",
+                "5b07dd285acfc4001754240d",
+                "56def37dd2720bec348b456a",
+                "5a7b483fe899ef0016170d15",
+                "61605d88ffa6e502ac5e7eeb",
+                "5a5f1ce64f39f90b401987bc",
+                "560d657b4bdc2da74d8b4572",
+                "5b3a337e5acfc4704b4a19a0",
+                "5c5952732e2216398b5abda2",
+                "57d17e212459775a1179a0f5",
+                "6267c6396b642f77f56f5c1c",
+                "6272370ee4013c5d7e31f418",
+                "6272379924e29f06af4d5ecb",
+                "626becf9582c3e319310b837",
+                "644a3df63b0b6f03e101e065",
+                "646f6322f43d0c5d62063715",
+				"5649a2464bdc2d91118b45a8"
+            ]
+        }
+    },
+    "mount_all_shifty_tac_nega002": {
+        "sptID": "770e0af976b42d2883b88dfc",
+        "clone": "770e0aded5ebb0fbefb88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_nega002.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tactical Device Adjustment System Negative Position 02",
+                "ShortName": "TD-02",
+                "Description": "MFAC Tactical Device Adjustment System Negative Position 02. This moves the tactical device slighty to the rear by increment of 2."
+            },
+            "ch": {
+                "Name": "MFAC 战术装置位置移动系统位置移动座(向后-2）",
+                "ShortName": "向后-2",
+                "Description": "MFAC 战术装置位置移动系统位置移动座(向后-2）"
+            }
+        }
+    },
+    "mount_all_shifty_tac_nega003": {
+        "sptID": "770e0afdcbcff4cf9e388dfc",
+        "clone": "770e0aded5ebb0fbefb88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_nega003.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tactical Device Adjustment System Negative Position 03",
+                "ShortName": "TD-03",
+                "Description": "MFAC Tactical Device Adjustment System Negative Position 03. This moves the tactical device slighty to the rear by increment of 3."
+            },
+            "ch": {
+                "Name": "MFAC 战术装置位置移动系统位置移动座(向后-3）",
+                "ShortName": "向后-3",
+                "Description": "MFAC 战术装置位置移动系统位置移动座(向后-3）"
+            }
+        }
+    },
+    "mount_all_shifty_tac_nega004": {
+        "sptID": "770e0b1b0db2c5f8c5d88dfc",
+        "clone": "770e0aded5ebb0fbefb88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_nega004.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tactical Device Adjustment System Negative Position 04",
+                "ShortName": "TD-04",
+                "Description": "MFAC Tactical Device Adjustment System Negative Position 04. This moves the tactical device slighty to the rear by increment of 4."
+            },
+            "ch": {
+                "Name": "MFAC 战术装置位置移动系统位置移动座(向后-4）",
+                "ShortName": "向后-4",
+                "Description": "MFAC 战术装置位置移动系统位置移动座(向后-4）"
+            }
+        }
+    },
+    "mount_all_shifty_tac_nega005": {
+        "sptID": "770e0b487eacc85ccdb88dfc",
+        "clone": "770e0aded5ebb0fbefb88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_nega005.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tactical Device Adjustment System Negative Position 05",
+                "ShortName": "TD-05",
+                "Description": "MFAC Tactical Device Adjustment System Negative Position 05. This moves the tactical device slighty to the rear by increment of 5."
+            },
+            "ch": {
+                "Name": "MFAC 战术装置位置移动系统位置移动座(向后-5）",
+                "ShortName": "向后-5",
+                "Description": "MFAC 战术装置位置移动系统位置移动座(向后-5）"
+            }
+        }
+    },
+    "mount_all_shifty_tac_nega006": {
+        "sptID": "770e0bacc401b2ad96e88dfc",
+        "clone": "770e0aded5ebb0fbefb88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_nega006.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tactical Device Adjustment System Negative Position 06",
+                "ShortName": "TD-06",
+                "Description": "MFAC Tactical Device Adjustment System Negative Position 06. This moves the tactical device slighty to the rear by increment of 6."
+            },
+            "ch": {
+                "Name": "MFAC 战术装置位置移动系统位置移动座(向后-6）",
+                "ShortName": "向后-6",
+                "Description": "MFAC 战术装置位置移动系统位置移动座(向后-6）"
+            }
+        }
+    },
+    "mount_all_shifty_tac_nega007": {
+        "sptID": "770e0baccdfe7b86e3a88dfc",
+        "clone": "770e0aded5ebb0fbefb88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_nega007.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tactical Device Adjustment System Negative Position 07",
+                "ShortName": "TD-07",
+                "Description": "MFAC Tactical Device Adjustment System Negative Position 07. This moves the tactical device slighty to the rear by increment of 7."
+            },
+            "ch": {
+                "Name": "MFAC 战术装置位置移动系统位置移动座(向后-7）",
+                "ShortName": "向后-7",
+                "Description": "MFAC 战术装置位置移动系统位置移动座(向后-7）"
+            }
+        }
+    },
+    "mount_all_shifty_tac_nega008": {
+        "sptID": "770e0bce53dfcdf33b888dfc",
+        "clone": "770e0aded5ebb0fbefb88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_nega008.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tactical Device Adjustment System Negative Position 08",
+                "ShortName": "TD-08",
+                "Description": "MFAC Tactical Device Adjustment System Negative Position 08. This moves the tactical device slighty to the rear by increment of 8."
+            },
+            "ch": {
+                "Name": "MFAC 战术装置位置移动系统位置移动座(向后-8）",
+                "ShortName": "向后-8",
+                "Description": "MFAC 战术装置位置移动系统位置移动座(向后-8）"
+            }
+        }
+    },
+    "mount_all_shifty_tac_nega009": {
+        "sptID": "770e0bdbfed30d7dc5488dfc",
+        "clone": "770e0aded5ebb0fbefb88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_nega009.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tactical Device Adjustment System Negative Position 09",
+                "ShortName": "TD-09",
+                "Description": "MFAC Tactical Device Adjustment System Negative Position 09. This moves the tactical device slighty to the rear by increment of 9."
+            },
+            "ch": {
+                "Name": "MFAC 战术装置位置移动系统位置移动座(向后-9）",
+                "ShortName": "向后-9",
+                "Description": "MFAC 战术装置位置移动系统位置移动座(向后-9）"
+            }
+        }
+    },
+    "mount_all_shifty_tac_nega010": {
+        "sptID": "770e0beecafcf67000b88dfc",
+        "clone": "770e0aded5ebb0fbefb88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_nega010.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tactical Device Adjustment System Negative Position 10",
+                "ShortName": "TD-10",
+                "Description": "MFAC Tactical Device Adjustment System Negative Position 10. This moves the tactical device slighty to the rear by increment of 10."
+            },
+            "ch": {
+                "Name": "MFAC 战术装置位置移动系统位置移动座(向后-10）",
+                "ShortName": "向后-10",
+                "Description": "MFAC 战术装置位置移动系统位置移动座(向后-10）"
+            }
+        }
+    },
+    "mount_all_shifty_tac_plus001": {
+        "sptID": "770e0c1abc77ca5f4f188dfc",
+        "clone": "770e0aded5ebb0fbefb88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_plus001.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tactical Device Adjustment System Positive Position 01",
+                "ShortName": "TD+01",
+                "Description": "MFAC Tactical Device Adjustment System Positive Position 01. This moves the tactical device slighty to the front by increment of 1."
+            },
+            "ch": {
+                "Name": "MFAC 战术装置位置移动系统位置移动座(向前+1）",
+                "ShortName": "向前+1",
+                "Description": "MFAC 战术装置位置移动系统位置移动座(向前+1）"
+            }
+        }
+    },
+    "mount_all_shifty_tac_plus002": {
+        "sptID": "770e0c3d8e321a07dff88dfc",
+        "clone": "770e0aded5ebb0fbefb88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_plus002.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tactical Device Adjustment System Positive Position 02",
+                "ShortName": "TD+02",
+                "Description": "MFAC Tactical Device Adjustment System Positive Position 02. This moves the tactical device slighty to the front by increment of 2."
+            },
+            "ch": {
+                "Name": "MFAC 战术装置位置移动系统位置移动座(向前+2）",
+                "ShortName": "向前+2",
+                "Description": "MFAC 战术装置位置移动系统位置移动座(向前+2）"
+            }
+        }
+    },
+    "mount_all_shifty_tac_plus003": {
+        "sptID": "770e0c9a7cbd5ac9dd588dfc",
+        "clone": "770e0aded5ebb0fbefb88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_plus003.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tactical Device Adjustment System Positive Position 03",
+                "ShortName": "TD+03",
+                "Description": "MFAC Tactical Device Adjustment System Positive Position 03. This moves the tactical device slighty to the front by increment of 3."
+            },
+            "ch": {
+                "Name": "MFAC 战术装置位置移动系统位置移动座(向前+3）",
+                "ShortName": "向前+3",
+                "Description": "MFAC 战术装置位置移动系统位置移动座(向前+3）"
+            }
+        }
+    },
+    "mount_all_shifty_tac_plus004": {
+        "sptID": "770e0cb8a75cfb2d2ca88dfc",
+        "clone": "770e0aded5ebb0fbefb88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_plus004.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tactical Device Adjustment System Positive Position 04",
+                "ShortName": "TD+04",
+                "Description": "MFAC Tactical Device Adjustment System Positive Position 04. This moves the tactical device slighty to the front by increment of 4."
+            },
+            "ch": {
+                "Name": "MFAC 战术装置位置移动系统位置移动座(向前+4）",
+                "ShortName": "向前+4",
+                "Description": "MFAC 战术装置位置移动系统位置移动座(向前+4）"
+            }
+        }
+    },
+    "mount_all_shifty_tac_plus005": {
+        "sptID": "770e0cea7bef48faf1188dfc",
+        "clone": "770e0aded5ebb0fbefb88dfc",
+        "enable": true,
+        "item": {
+            "_props": {
+                "Prefab": {
+                    "path": "mount_all_shifty_tacgrip_plus005.bundle",
+                    "rcid": ""
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f755f86f77447ec5d770e",
+            "Price": 1
+        },
+        "locales": {
+            "en": {
+                "Name": "MFAC Tactical Device Adjustment System Positive Position 05",
+                "ShortName": "TD+05",
+                "Description": "MFAC Tactical Device Adjustment System Positive Position 05. This moves the tactical device slighty to the front by increment of 5."
+            },
+            "ch": {
+                "Name": "MFAC 战术装置位置移动系统位置移动座(向前+5）",
+                "ShortName": "向前+5",
+                "Description": "MFAC 战术装置位置移动系统位置移动座(向前+5）"
+            }
+        }
+    }
+}

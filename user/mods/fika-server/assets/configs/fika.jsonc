@@ -3,12 +3,12 @@
         "useBtr": true,
         "friendlyFire": true,
         "dynamicVExfils": false,
-        "allowFreeCam": false,
+        "allowFreeCam": true,
         "allowItemSending": true,
         "forceSaveOnDeath": false
     },
     "server": {
-        "giftedItemsLoseFIR": false,
+        "giftedItemsLoseFIR": true,
         "launcherListAllProfiles": false
     }
 }

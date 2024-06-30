@@ -1,0 +1,400 @@
+{
+   "manifest": [
+      {
+         "key": "mount_all_shifty_asset.bundle",
+         "dependencyKeys": [
+            "shaders"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_base_pettan.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_nega001.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_nega002.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_nega003.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_nega004.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_nega005.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_plus001.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_plus002.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_plus003.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_plus004.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_plus005.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_plus006.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_plus007.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_plus008.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_plus009.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_plus010.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mod_buffer_shifty_asset.bundle",
+         "dependencyKeys": [
+            "shaders"
+         ]
+      },
+      {
+         "key": "mod_buffer_shifty_base.bundle",
+         "dependencyKeys": [
+            "mod_buffer_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mod_buffer_shifty_extend01.bundle",
+         "dependencyKeys": [
+            "mod_buffer_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mod_buffer_shifty_extend02.bundle",
+         "dependencyKeys": [
+            "mod_buffer_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mod_buffer_shifty_extend03.bundle",
+         "dependencyKeys": [
+            "mod_buffer_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mod_buffer_shifty_extend04.bundle",
+         "dependencyKeys": [
+            "mod_buffer_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mod_buffer_shifty_retract01.bundle",
+         "dependencyKeys": [
+            "mod_buffer_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mod_buffer_shifty_retract02.bundle",
+         "dependencyKeys": [
+            "mod_buffer_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mod_buffer_shifty_retract03.bundle",
+         "dependencyKeys": [
+            "mod_buffer_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mod_buffer_shifty_retract04.bundle",
+         "dependencyKeys": [
+            "mod_buffer_shifty_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_tacgrip_asset.bundle",
+         "dependencyKeys": [
+            "shaders"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_tacgripall_base.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_tacgrip_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_tacgrip_base.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_tacgrip_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_tacgrip_nega001.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_tacgrip_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_tacgrip_nega002.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_tacgrip_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_tacgrip_nega003.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_tacgrip_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_tacgrip_nega004.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_tacgrip_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_tacgrip_nega005.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_tacgrip_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_tacgrip_nega006.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_tacgrip_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_tacgrip_nega007.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_tacgrip_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_tacgrip_nega008.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_tacgrip_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_tacgrip_nega009.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_tacgrip_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_tacgrip_nega010.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_tacgrip_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_tacgrip_plus001.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_tacgrip_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_tacgrip_plus002.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_tacgrip_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_tacgrip_plus003.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_tacgrip_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_tacgrip_plus004.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_tacgrip_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      },
+      {
+         "key": "mount_all_shifty_tacgrip_plus005.bundle",
+         "dependencyKeys": [
+            "mount_all_shifty_tacgrip_asset.bundle",
+            "shaders",
+            "cubemaps",
+            "assets/commonassets/physics/physicsmaterials.bundle"
+         ]
+      }
+   ]
+}
