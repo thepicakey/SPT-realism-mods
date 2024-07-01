@@ -4,8 +4,8 @@
   "questExperienceModifier": 1,
   "traderStandingRewardModifier": 1,
   "itemRewardModifier": 1,
-  "killQuestCountModifier": 0.5,
-  "findItemQuestModifier": 0.5,
+  "killQuestCountModifier": 0.67,
+  "findItemQuestModifier": 0.67,
   "plantTimeModifier": 1,
   "replaceGunsmith": false,
   "debug": false

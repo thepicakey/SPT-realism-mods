@@ -44,7 +44,7 @@ class Mod implements IPostDBLoadMod {
 		
 		this.addPockets();
 		
-		if (config.EnableStandardEdition) 
+		if (config.EnableZ2hStandardEdition) 
 		{
 			this.createPreset(
 				"Zero To Hero - Standard", 
@@ -56,7 +56,7 @@ class Mod implements IPostDBLoadMod {
 				"./preset_info/standard_usec.json"
 			);
 		}
-		if (config.EnablePTEEdition) 
+		if (config.EnableZ2hPTEEdition) 
 		{
 			this.createPreset(
 				"Zero To Hero - Prepare To Escape", 
@@ -68,7 +68,7 @@ class Mod implements IPostDBLoadMod {
 				"./preset_info/pte.json"
 			);
 		}
-		if (config.EnableEODEdition) 
+		if (config.EnableZ2hEODEdition) 
 		{
 			this.createPreset(
 				"Zero To Hero - Edge Of Darkness", 
@@ -80,7 +80,7 @@ class Mod implements IPostDBLoadMod {
 				"./preset_info/eod.json"
 			);
 		}
-		if (config.EnableUnheardEdition) 
+		if (config.EnableZ2hUnheardEdition) 
 		{
 			if (config.UseUnheardItemsPreview) {
 				this.createPreset(

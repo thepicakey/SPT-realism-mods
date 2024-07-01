@@ -1,0 +1,83 @@
+{
+    "_": "Controls whether you want to see what this mod changes in the server console.",
+    "_": "Useful for checking if what you want happens.",
+    "_": "Possible values: 'true' or 'false'",
+    "showLogs": true,
+	
+	"setInsuranceReturnTime": true,
+	"setInsuranceReturnChance": true,
+	"setInsuranceStorageTime": true,
+	"setInsuranceCheckInterval": true,
+	"setHideoutConstructionTime": true,
+	"setHideoutProductionTime": true,
+	"setHideoutBitcoinSlot": false,
+	"setHideoutScavCaseTime": true,
+	"setScavCooldown": false,
+	
+	
+	"useInsuranceReturnMultiplier": true,
+	"_": "If the result is a decimal, it will be rounded to the nearest number.",
+	"insuranceReturnMultiplier":0.67,
+	
+	"_": "Prapor's default insurance return time is 24-36 hrs, and storage time is 96 hrs.",
+	"praporInsuranceMinReturnHour": 24,
+	"praporInsuranceMaxReturnHour": 36,
+	"praporInsuranceMaxStorageTimeHour": 8760,
+	
+	"_": "Therapist's default insurance return time is 10-20 hrs, and storage time is 144 hrs.",
+	"therapistInsuranceMinReturnHour": 10,
+	"therapistInsuranceMaxReturnHour": 20,
+	"therapistInsuranceMaxStorageTimeHour": 8760,
+		
+    "_": "The server checks for insurance returns based on this interval (in seconds).",
+    "_": "Originally it's at 600.",
+    "_": "Lowering this further (to for example every second) may impact server performance.",
+    "insuranceCheckIntervalInSec": 300,
+
+    "_": "Insurance return chance.",
+    "_": "Return is rolled for every item. This is the percentage chance of getting an insured item back.",
+    "_": "Valid values: 0 through 100. Values outside this range will be ignored.",
+    "insuranceReturnChance": 67,
+    
+	"hideoutConstructionTimeMultiplier": 0.67,
+	
+    "_": "Common production time (in seconds). Everything that isn't overridden below gets this production time.",
+    "_": "Setting this to a negative value will deactivate the common time. Overrides will still be processed.",
+    "_": "A production time of 0 seconds has proven to be error-prone, that's why it's 2 now.",
+    "hideoutProductionTimeMultiplier": 0.67,
+    
+    "_": "Production overrides.",
+    "_": "Every row has a recipe id (found in Aki_Data\\Server\\database\\hideout\\production.json) and a time (in seconds).",
+    "_": "Setting the time to a negative value will deactivate overriding, conserving the original production time.",
+    "_": "To add a new item, just add additional lines. Be sure to have a comma at the end of every line but the last.",
+    "hideoutProductionOverrides": [
+    ],
+	
+	"exampleHideoutProductionOverrides": [
+        { "recipeId": "5d5c205bd582a50d042a3c0e", "time": -1, "_": "Bitcoin" },
+        { "recipeId": "5d5589c1f934db045e6c5492", "time": -1, "_": "Superwater" }
+    ],
+    
+    "_": "Common scav case time. Works just like common production time. See there for further explanation.",
+    "hideoutScavCaseTimeMultiplier": 0.66,
+    
+    "_": "Scav case overrides. Work just like production overrides. See there for further explanation.",
+    "hideoutScavCaseOverrides": [
+    ],
+	
+	"exampleHideoutScavCaseOverrides": [
+        { "recipeId": "6271093e621b0a76055cd61e", "time": 40, "_": "Moonshine" },
+        { "recipeId": "62710a69adfbd4354d79c58e", "time": 30, "_": "85k RUB" },
+        { "recipeId": "62710974e71632321e5afd5f", "time": 10, "_": "1k RUB" },
+        { "recipeId": "62710a0e436dcc0b9c55f4ec", "time": 50, "_": "Intel folder" },
+        { "recipeId": "62710a8c403346379e3de9be", "time": 20, "_": "7k RUB" }
+    ],
+    
+    "_": "Scav cooldown (in seconds). Set to -1 to not change the default cooldown.",
+    "scavCooldownInSec": 120,
+    
+    "_": "Bitcoin graphics card slot multiplier. Will multiply each of the three stages' 'additional slots'",
+    "_": "bonus by the specified number. Only positive numbers >= 1, everything else will be ignored.",
+    "_": "The 10 I put here gives the farm space for 500 cards at level 3.",
+    "hideoutBitcoinSlotMultiplier": 10
+}
