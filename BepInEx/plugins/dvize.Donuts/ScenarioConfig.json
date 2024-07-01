@@ -3,7 +3,7 @@
     "Name": "live-like",
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -15,7 +15,7 @@
     },
     "SCAVBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -30,7 +30,7 @@
     "Name": "live-like-alt",
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -42,7 +42,7 @@
     },
     "SCAVBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -57,7 +57,7 @@
     "Name": "live-like-alt-2",
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -69,7 +69,7 @@
     },
     "SCAVBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -84,7 +84,7 @@
     "Name": "quietraids",
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -96,7 +96,7 @@
     },
     "SCAVBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -111,7 +111,7 @@
     "Name": "boss-mania",
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -123,7 +123,7 @@
     },
     "SCAVBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -138,7 +138,7 @@
     "Name": "crazyraids",
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -150,7 +150,7 @@
     },
     "SCAVBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -165,7 +165,7 @@
     "Name": "impossibleraids",
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -177,7 +177,7 @@
     },
     "SCAVBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -192,7 +192,7 @@
     "Name": "morescavs",
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -204,7 +204,7 @@
     },
     "SCAVBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -219,7 +219,7 @@
     "Name": "morepmcs",
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -231,7 +231,7 @@
     },
     "SCAVBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -246,7 +246,7 @@
     "Name": "no-starting-pmcs",
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -258,7 +258,7 @@
     },
     "SCAVBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -273,7 +273,7 @@
     "Name": "starting-pmcs-only-live-like",
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -285,7 +285,7 @@
     },
     "SCAVBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -300,7 +300,7 @@
     "Name": "starting-pmcs-only-live-like-alt",
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -312,7 +312,7 @@
     },
     "SCAVBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -327,7 +327,7 @@
     "Name": "starting-pmcs-only-morescavs",
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -339,7 +339,7 @@
     },
     "SCAVBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -354,7 +354,7 @@
     "Name": "starting-pmcs-only-quietraids",
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -366,7 +366,7 @@
     },
     "SCAVBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -381,7 +381,7 @@
     "Name": "starting-pmcs-only-late-scavs",
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -393,7 +393,7 @@
     },
     "SCAVBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -408,7 +408,7 @@
     "Name": "scav-raids",
   	"PMCBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
@@ -420,7 +420,7 @@
     },
     "SCAVBotLimitPresets": {
       "FactoryBotLimit": 6,
-      "InterchangeBotLimit": 5,
+      "InterchangeBotLimit": 6,
       "LaboratoryBotLimit": 6,
       "LighthouseBotLimit": 5,
       "ReserveBotLimit": 5,
